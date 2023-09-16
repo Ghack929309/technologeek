@@ -3,8 +3,8 @@ import Hero from "../components/hero";
 import Navbar from "../components/navbar";
 import SectionTitle from "../components/sectionTitle";
 
-import { benefitOne, benefitTwo } from "../components/data";
-import Video from "../components/video";
+import { benefitOne, benefitTwo } from "../contant/data";
+import ServiceCards from "../components/ServiceCards";
 import Benefits from "../components/benefits";
 import Footer from "../components/footer";
 import Testimonials from "../components/testimonials";
@@ -26,33 +26,28 @@ const Home = () => {
 
       <Navbar />
       <Hero />
-      <SectionTitle
-        pretitle="Nextly Benefits"
-        title=" Why should you use this landing page">
-        Nextly is a free landing page & marketing website template for startups
-        and indie projects. Its built with Next.js & TailwindCSS. And its
-        completely open-source.
+      <SectionTitle pretitle="Nextly Benefits" title=" Why Choose Technologeek?">
+        At Technologeek, we believe in the power of innovation. Our team of tech-savvy wizards is
+        here to transform your vision into reality. We don't just build websites and software; we
+        craft immersive digital experiences that captivate and engage.
       </SectionTitle>
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
-      <SectionTitle
-        pretitle="Watch a video"
-        title="Learn how to fullfil your needs">
-        This section is to highlight a promo or demo video of your product.
-        Analysts says a landing page with video has 3% more conversion rate. So,
-        don&apos;t forget to add one. Just like this.
+
+      <SectionTitle pretitle="Our services" title="What We Offer" id="services">
+        From UI/UX, Web Design, Frontend Development to Backend Development, we cover it all. We
+        also provide Mobile App Development, SEO, and Digital Marketing services.
       </SectionTitle>
-      <Video />
-      <SectionTitle
-        pretitle="Testimonials"
-        title="Here's what our customers said">
-        Testimonails is a great way to increase the brand trust and awareness.
-        Use this section to highlight your popular customers.
+      <ServiceCards />
+
+      <SectionTitle pretitle="Testimonials" title="Here's what our customers said">
+        Testimonails is a great way to increase the brand trust and awareness. Use this section to
+        highlight your popular customers.
       </SectionTitle>
       <Testimonials />
+
       <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
-        Answer your customers possible questions here, it will increase the
-        conversion rate as well as support or chat requests.
+      We understand that you may have questions about our services and how we can assist you in your digital journey. Below, we've compiled some common questions to provide you with the information you need. If you don't find the answer you're looking for, feel free to contact us directly, and we'll be happy to assist you further.
       </SectionTitle>
       <Faq />
       <Cta />
@@ -60,6 +55,6 @@ const Home = () => {
       <PopupWidget />
     </>
   );
-}
+};
 
 export default Home;
