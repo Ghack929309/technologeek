@@ -3,9 +3,28 @@
 @tailwind utilities;
 
 @layer base {
-  html,
-  body {
-    @apply dark:bg-trueGray-900;
-    scroll-behavior: smooth;
-  }
+	html,
+	body {
+		@apply dark:bg-black;
+		scroll-behavior: smooth;
+	}
+}
+
+.animate-gradient {
+	background-size: 300%;
+	-webkit-animation: animatedgradient 6s ease infinite alternate;
+	-moz-animation: animatedgradient 6s ease infinite alternate;
+	animation: animatedgradient 6s ease infinite alternate;
+}
+
+@keyframes animatedgradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
