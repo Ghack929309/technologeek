@@ -4,9 +4,9 @@ import { RocketLaunchIcon } from "@heroicons/react/24/solid";
 
 const serviceCardsData = [
   {
-    title: "UI/UX",
+    title: "UI/UX & Design Systems",
     details:
-      "We are dedicated to creating visually stunning and intuitive interfaces, easy to use and navigate, that captivate users and keep them engaged.",
+      "We are dedicated to creating visually stunning and intuitive interfaces, that captivate users and keep them engaged. We also create design systems that ensure consistency across your digital products.",
     icon: <RocketLaunchIcon />,
   },
   {
@@ -18,13 +18,13 @@ const serviceCardsData = [
   {
     title: "Frontend Development",
     details:
-      "We specialize in turning design concepts into interactive and responsive web applications, enhancing user interactions and experiences.",
+      "We are experienced in turning design concepts into interactive and responsive web applications, enhancing user interactions and experiences. We also provide ongoing support and maintenance.",
     icon: <RocketLaunchIcon />,
   },
   {
     title: "Backend Development",
     details:
-      "We ensure your web applications are robust, secure, and scalable, providing the foundation for seamless user experiences.",
+      "By using modern and cutting adge technologies, we ensure the Backend of your apps is robust, secure, and scalable, providing the foundation for seamless user experiences.",
     icon: <RocketLaunchIcon />,
   },
   {
@@ -61,7 +61,7 @@ const ServiceCard = ({ icon, title, details }) => {
       <div className="w-full px-4 md:w-1/2 lg:w-1/3">
         <div className="mb-8 rounded-[20px] p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10">
           <div className="flex items-center gap-2 mb-6">
-            <div className="flex items-center justify-center flex-shrink-0 bg-indigo-500 rounded-md w-11 h-11 p-2">
+            <div className="flex text-white items-center justify-center flex-shrink-0 bg-indigo-500 rounded-md w-11 h-11 p-2">
               {icon}
             </div>
             <h4 className="text-xl font-semibold text-dark">{title}</h4>

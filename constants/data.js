@@ -1,10 +1,5 @@
 import {
-  FaceSmileIcon,
-  ChartBarSquareIcon,
-  CursorArrowRaysIcon,
-  DevicePhoneMobileIcon,
   AdjustmentsVerticalIcon,
-  SunIcon,
   RocketLaunchIcon,
   LightBulbIcon,
   ChartBarIcon,
@@ -52,7 +47,7 @@ const benefitOne = {
 
 const benefitTwo = {
   title: "How we work",
-  desc: "At TechnoloGeek, we're dedicated to going above and beyond for our clients. In addition to the advantages we've already mentioned, here are even more benefits you'll enjoy when you collaborate with us",
+  desc: "We're dedicated to going above and beyond for our clients. In addition to the advantages we've already mentioned, here are even more benefits you'll enjoy when you collaborate with us",
   image: benefitTwoImg,
   bullets: [
     {
@@ -95,41 +90,7 @@ const privacyPolicy = [
   {
     title: "3. How We Use Your Information",
     desc: "We may use your information for the following purposes",
-    subSection: [
-      {
-        list: "To provide, maintain, and improve our services,To send you newsletters, updates, and marketing materials (you can opt-out at any time),To respond to your inquiries and provide customer support,To protect our rights, property, or safety and that of our users",
-      },
-    ],
-  },
-  {
-    title: "4. How We Share Your Information",
-    desc: "We may share your information with:",
-    subSection: [
-      {
-        list: "Service providers, business partners, and contractors necessary for the operation of our services,Legal authorities when required by law or to protect our rights",
-      },
-    ],
-  },
-  {
-    title: "5. Cookies and Tracking Technologies",
-    desc: "We use cookies and similar tracking technologies to enhance your experience on our website. You can control cookies through your browser settings, but disabling them may affect your ability to use certain features of our site.",
-  },
-  {
-    title: "6. Security",
-    desc: "We take reasonable measures to protect your information from unauthorized access, disclosure, or alteration. However, no data transmission over the internet is entirely secure, and we cannot guarantee the absolute security of your information.",
-  },
-  {
-    title: "7. Links to Third-Party Websites",
-    desc: "Our website may contain links to third-party websites. We are not responsible for the privacy practices or content of these websites. Please review the privacy policies of those websites before providing any personal information.",
-  },
-  {
-    title: "8. Changes to this Privacy Policy",
-    desc: "We may update this Privacy Policy from time to time to reflect changes in our practices. The updated policy will be posted on our website, and the date of the latest revision will be indicated.",
-  },
-  {
-    title: "9. Contact Us",
-    desc: "If you have any questions, concerns, or requests regarding this Privacy Policy, please contact us at [contact email or address].    By using our website or services, you acknowledge that you have read and agree to this Privacy Policy.",
   },
 ];
 
-export { benefitOne, benefitTwo, privacyPolicy };
+export { benefitOne, benefitTwo };

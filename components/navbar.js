@@ -5,13 +5,14 @@ import { Disclosure } from "@headlessui/react";
 
 const Navbar = () => {
   const navigation = [
-    { title: "About Us", href: "#about-us" },
+    { title: "Why Us", href: "#why-us" },
     { title: "Services", href: "#services" },
     { title: "Pricing", href: "#pricing" },
+    { title: "FAQ", href: "#faq" },
   ];
 
   return (
-    <div className="w-full">
+    <div className="w-full z-10 fixed top-0 bg-white dark:bg-trueGray-900 bg-opacity-50 dark:bg-opacity-50">
       <nav className="container relative flex flex-wrap items-center justify-between p-8 mx-auto lg:justify-between xl:px-0">
         {/* Logo  */}
         <Disclosure>
