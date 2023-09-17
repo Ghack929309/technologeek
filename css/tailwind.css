@@ -28,3 +28,28 @@
 		background-position: 0% 50%;
 	}
 }
+
+.animate-gradient {
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.card-ring {
+	border: 2px solid;
+	border-image-slice: 1;
+	border-image-source: linear-gradient(to bottom, #4ade80, #3b82f6, #22d3ee);
+}
+.card-ring::before {
+	border-radius: 8px;
+}

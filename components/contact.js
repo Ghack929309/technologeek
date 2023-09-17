@@ -18,10 +18,10 @@ const Contact = () => {
 	return (
 		<>
 			<div id="contact-us" className="container my-24 mx-auto md:px-6">
-				<div className="text-lg font-bold tracking-wider text-indigo-600 text-center">
+				<div className="text-lg font-bold tracking-wider text-teal-600 text-center">
 					Ready to start your project ?
 				</div>
-				<h2 className="text-center mt-3 mb-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
+				<h2 className="text-center mt-3 mb-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-gray-300">
 					Contact Us
 				</h2>
 				<section className="mb-32">
@@ -61,7 +61,7 @@ const Contact = () => {
 												</h3>
 												<p className="text-gray-700 md:px-3">{message}</p>
 												<button
-													className="mt-6 text-indigo-600 focus:outline-none"
+													className="mt-6 text-teal-600 focus:outline-none"
 													onClick={() => reset()}
 												>
 													Go back
@@ -91,7 +91,7 @@ const Contact = () => {
 											</h3>
 											<p className="text-gray-700 md:px-3">{message}</p>
 											<button
-												className="mt-6 text-indigo-600 focus:outline-none"
+												className="mt-6 text-teal-600 focus:outline-none"
 												onClick={() => reset()}
 											>
 												Go back
@@ -109,25 +109,25 @@ const Contact = () => {
 													</div>
 												</div>
 												<div className="ml-6 grow">
-													<p className="mb-2 font-bold dark:text-white">
+													<p className="mb-2 font-bold dark:text-gray-300">
 														Contact Info
 													</p>
 													<a
 														href="mailto:contact@technologeek.ca"
-														className="text-neutral-500 hover:text-indigo-600 dark:hover:text-indigo-600 dark:text-neutral-200 mb-1.5"
+														className="text-neutral-500 hover:text-teal-600 dark:hover:text-teal-600 dark:text-neutral-200 mb-1.5"
 													>
 														contact@technologeek.ca
 													</a>
 													<div className="flex flex-col gap-y-1.5">
 														<a
 															href="tel:+1514-703-73-28"
-															className="text-neutral-500 hover:text-indigo-600 dark:hover:text-indigo-600 dark:text-neutral-200"
+															className="text-neutral-500 hover:text-teal-600 dark:hover:text-teal-600 dark:text-neutral-200"
 														>
 															+1 514-703-73-28
 														</a>
 														<a
 															href="tel:+1514-236-88-62"
-															className="text-neutral-500 hover:text-indigo-600 dark:hover:text-indigo-600 dark:text-neutral-200"
+															className="text-neutral-500 hover:text-teal-600 dark:hover:text-teal-600 dark:text-neutral-200"
 														>
 															+1 514-236-88-62
 														</a>

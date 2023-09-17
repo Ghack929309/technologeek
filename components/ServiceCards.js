@@ -66,15 +66,17 @@ export default ServiceCards;
 const ServiceCard = ({ icon, title, details }) => {
 	return (
 		<>
-			<div className="w-full px-4 md:w-1/2 lg:w-1/3">
-				<div className="mb-8 rounded-[20px] p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10">
-					<div className="flex items-center gap-2 mb-6">
-						<div className="flex text-white items-center justify-center flex-shrink-0 bg-indigo-500 rounded-md w-11 h-11 p-2">
-							{icon}
+			<div className="w-full px-4 md:w-1/2 lg:w-1/3 ">
+				<div className="mb-8 rounded-[20px] p-[0.07rem] shadow-md hover:shadow-lg bg-gradient-to-r from-green-400 via-blue-500  to-cyan-400 animate-gradient">
+					<div className="bg-white dark:bg-black p-8 rounded-[20px] md:px-7 xl:px-10">
+						<div className="flex items-center gap-2 mb-6">
+							<div className="flex text-white items-center justify-center flex-shrink-0 bg-gradient-to-r from-green-500 to-teal-500 rounded-md w-11 h-11 p-2">
+								{icon}
+							</div>
+							<h4 className="text-xl font-semibold text-dark">{title}</h4>
 						</div>
-						<h4 className="text-xl font-semibold text-dark">{title}</h4>
+						<p className="text-body-color">{details}</p>
 					</div>
-					<p className="text-body-color">{details}</p>
 				</div>
 			</div>
 		</>
