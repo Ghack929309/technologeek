@@ -1,10 +1,16 @@
-import React, { useEffect, useMemo } from "react";
+import React, { useMemo } from "react";
 import { useTheme } from "next-themes";
+import { useIsMounted } from "../utils/useIsMounted";
 
-export const GradientContainer = ({ children, className, border = "1.5" }) => {
+export const GradientContainer = ({
+  children,
+  className,
+  border = "1.5",
+  shadow = false,
+}) => {
   const { theme } = useTheme();
-  const [mounted, setMounted] = React.useState(false);
-  const isDark = useMemo(() => theme === "dark", [theme]);
+  const isMounted = useIsMounted();
+  const isDark = theme === "dark";
   const style = {
     border: `${border}px solid #0000`,
     background: `linear-gradient(${
@@ -13,14 +19,21 @@ export const GradientContainer = ({ children, className, border = "1.5" }) => {
     animation: "10s rotate linear infinite",
   };
 
-  useEffect(() => {
-    setMounted(true);
-  }, []);
+  if (!isMounted) return null;
+  if (!shadow) {
+    return (
+      <div style={style} className={className}>
+        {children}
+      </div>
+    );
+  }
 
-  if (!mounted) return null;
   return (
-    <div style={style} className={className}>
-      {children}
+    <div class="relative">
+      <div class="absolute -inset-2 rounded-lg bg-gradient-to-r from-green-400 via-blue-500 to-cyan-400 animate-gradient opacity-75 blur"></div>
+      <div style={style} className={`relative ${className}`}>
+        {children}
+      </div>
     </div>
   );
 };

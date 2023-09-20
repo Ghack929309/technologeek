@@ -9,7 +9,7 @@ import {
   BanknotesIcon,
 } from "@heroicons/react/24/solid";
 
-import how from "../public/img/how.png";
+import why from "../public/img/why.png";
 import pros from "../public/img/pros.png";
 
 const benefitOne = {
@@ -53,7 +53,7 @@ const benefitOne = {
 const benefitTwo = {
   title: "How we work",
   desc: "We're dedicated to going above and beyond for our clients. In addition to the advantages we've already mentioned, here are even more benefits you'll enjoy when you collaborate with us",
-  image: how,
+  image: why,
   bullets: [
     {
       title: "Agile Development Process",

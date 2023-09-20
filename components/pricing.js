@@ -20,10 +20,10 @@ export const Pricing = () => {
             pricing that makes your decision-making process easier.
           </p>
         </div>
-        <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
+        <div className="space-y-8 place-content-center grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
           <GradientContainer
             border="2"
-            className=" h-fit rounded-xl max-w-lg text-center text-gray-900  shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]  dark:shadow-black/20 xl:p-8 dark:text-gray-300">
+            className=" h-fit rounded-xl max-w-lg text-center text-gray-900  shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]  dark:shadow-black/20 p-8 dark:text-gray-300">
             <h3 className="mb-4 text-2xl font-semibold">Single/Landing Page</h3>
             <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
               For landing pages. To let people know about your business and
@@ -65,7 +65,7 @@ export const Pricing = () => {
 
           <GradientContainer
             border="2"
-            className=" h-fit rounded-xl max-w-lg text-center text-gray-900  shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]  dark:shadow-black/20 xl:p-8 dark:text-gray-300">
+            className=" h-fit rounded-xl max-w-lg text-center text-gray-900  shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]  dark:shadow-black/20 p-8 dark:text-gray-300">
             <h3 className="mb-4 text-2xl font-semibold">
               Software Development
             </h3>
@@ -123,7 +123,7 @@ export const Pricing = () => {
 
           <GradientContainer
             border="2"
-            className=" h-fit rounded-xl max-w-lg text-center text-gray-900  shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]  dark:shadow-black/20 xl:p-8 dark:text-gray-300">
+            className=" h-fit rounded-xl max-w-lg text-center text-gray-900  shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]  dark:shadow-black/20 p-8 dark:text-gray-300">
             <h3 className="mb-4 text-2xl font-semibold">Staff Augmentation</h3>
             <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
               Elevate your team's potential and productivity with our
