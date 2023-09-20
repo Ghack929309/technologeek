@@ -1,5 +1,5 @@
 import React from "react";
-import { useIsMounted } from "../utils/useIsMounted";
+import { useIsMounted } from "../hooks/useIsMounted";
 import { useTheme } from "next-themes";
 import classNames from "classnames";
 

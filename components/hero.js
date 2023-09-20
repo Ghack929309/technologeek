@@ -12,23 +12,11 @@ import { SiMysql } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 import { InfiniteSlider } from "./infiniteSlider";
 
-const Hero = () => {
+const Hero = ({ t }) => {
   const logos = [
-    <FaReact
-      size="50"
-      title="React.js"
-      className="text-gray-400 dark:text-gray-400"
-    />,
-    <BiLogoVuejs
-      size="50"
-      title="Vue.js"
-      className="text-gray-400 dark:text-gray-400"
-    />,
-    <TbBrandNextjs
-      size="50"
-      title="Next.js"
-      className="text-gray-400 dark:text-gray-400"
-    />,
+    <FaReact size="50" title="React.js" className="text-gray-400 dark:text-gray-400" />,
+    <BiLogoVuejs size="50" title="Vue.js" className="text-gray-400 dark:text-gray-400" />,
+    <TbBrandNextjs size="50" title="Next.js" className="text-gray-400 dark:text-gray-400" />,
     <FaNodeJs size="50" className="text-gray-400 dark:text-gray-400" />,
     <BiLogoGoLang size="50" className="text-gray-400 dark:text-gray-400" />,
     <BiLogoJavascript size="50" className="text-gray-400 dark:text-gray-400" />,
@@ -42,17 +30,17 @@ const Hero = () => {
       <Container className="flex flex-wrap">
         <div className="w-full text-center py-14">
           <h1 className="text-7xl xl:text-8xl font-bold bg-gradient-to-r from-green-500 via-blue-500 to-green-500 text-transparent bg-clip-text animate-gradient">
-            Empower Your Unique Vision
+            {t("sections.hero").title}
           </h1>
           <p className="py-5 mx-auto text-center max-w-lg text-xl leading-normal text-slate-700 lg:text-xl xl:text-2xl dark:text-slate-300">
-            We're here to turn your digital dreams into reality. Let's talk and
-            bring your ideas to life.
+            {t("sections.hero").subtitle}
           </p>
           <div className="flex flex-col justify-center space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
             <a
               href="#contact-us"
-              className="px-16 py-4 text-lg font-medium text-center text-white bg-gradient-to-r from-green-500 via-teal-500 to-blue-500 hover:from-blue-500 hover:via-teal-500 hover:to-green-500 rounded-md ">
-              Let's Talk
+              className="px-16 py-4 text-lg font-medium text-center text-white bg-gradient-to-r from-green-500 via-teal-500 to-blue-500 hover:from-blue-500 hover:via-teal-500 hover:to-green-500 rounded-md "
+            >
+              {t("sections.hero").buttonText}
             </a>
           </div>
         </div>

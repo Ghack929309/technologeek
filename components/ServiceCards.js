@@ -11,50 +11,44 @@ import mobile from "../public/img/mobile.png";
 import backend from "../public/img/backend.png";
 import devops from "../public/img/devops.png";
 
-const serviceCardsData = [
+const serviceCardsData = (t) => [
   {
-    title: "UI/UX & Design Systems",
-    details:
-      "We are dedicated to creating visually stunning and intuitive interfaces, that captivate users and keep them engaged. We also create design systems that ensure consistency across your digital products.",
+    title: t("sections.services.cards")[0].title,
+    details: t("sections.services.cards")[0].subtitle,
     image: uiuix,
   },
   {
-    title: "Landing Page Design",
-    details:
-      "We specialize in crafting high-converting landing pages that make a lasting impression and drive action. Whether it's lead generation or product promotion, we design landing pages that get results.",
+    title: t("sections.services.cards")[1].title,
+    details: t("sections.services.cards")[1].subtitle,
     image: landing,
   },
   {
-    title: "Frontend Development",
-    details:
-      "We are experienced in turning design concepts into interactive and responsive web applications, enhancing user interactions and experiences. We also provide ongoing support and maintenance.",
+    title: t("sections.services.cards")[2].title,
+    details: t("sections.services.cards")[2].subtitle,
     image: frontend,
   },
   {
-    title: "Backend Development",
-    details:
-      "By using modern and cutting adge technologies, we ensure the Backend of your apps is robust, secure, and scalable, providing the foundation for seamless user experiences.",
+    title: t("sections.services.cards")[3].title,
+    details: t("sections.services.cards")[3].subtitle,
     image: backend,
   },
   {
-    title: "Mobile Development",
-    details:
-      "We specialize in creating mobile apps that are user-centric, feature-rich, and compatible across various platforms, helping you connect with your audience on the go.",
+    title: t("sections.services.cards")[4].title,
+    details: t("sections.services.cards")[4].subtitle,
     image: mobile,
   },
   {
-    title: "DevOps",
-    details:
-      "We optimize your software development processes, fostering collaboration between development and IT operations to enhance efficiency, quality, and continuous delivery.",
+    title: t("sections.services.cards")[5].title,
+    details: t("sections.services.cards")[5].subtitle,
     image: devops,
   },
 ];
 
-const ServiceCards = () => {
+const ServiceCards = ({ t }) => {
   return (
     <Container>
       <div className="flex flex-wrap -mx-4">
-        {serviceCardsData.map((item, index) => (
+        {serviceCardsData(t).map((item, index) => (
           <ServiceCard
             image={item.image}
             key={index}
