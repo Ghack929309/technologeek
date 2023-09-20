@@ -35,6 +35,11 @@ const Faq = () => {
 
 const faqdata = [
 	{
+		question: "How can I get started with TechnoloGeek?",
+		answer:
+			"Getting started is simple! Just reach out to us through our contact form or give us a call. We'll schedule an initial consultation to discuss your project, goals, and how we can best assist you in achieving success.",
+	},
+	{
 		question: " What services does TechnoloGeek offer?",
 		answer:
 			"We offer a wide range of services, including UI/UX design, web design, frontend and backend development, mobile app development, SEO services, digital marketing, DevOps, and landing page design. We cover all aspects of web development and digital marketing to meet your specific needs.",
@@ -68,11 +73,6 @@ const faqdata = [
 		question: "Do you provide ongoing support and maintenance?",
 		answer:
 			"Yes, we offer ongoing support and maintenance services to ensure your digital assets continue to perform optimally. Our support team is available 24/7 to address any issues or concerns.",
-	},
-	{
-		question: "How can I get started with TechnoloGeek?",
-		answer:
-			"Getting started is simple! Just reach out to us through our contact form or give us a call. We'll schedule an initial consultation to discuss your project, goals, and how we can best assist you in achieving success.",
 	},
 ];
 
