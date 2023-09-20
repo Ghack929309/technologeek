@@ -1,97 +1,113 @@
 {
-  "sections": {
-    "hero": {
-      "title": "Donnez vie à votre vision unique",
-      "subtitle": "Nous sommes là pour concrétiser vos rêves numériques. Parlons et donnons vie à vos idées.",
-      "buttonText": "Parlons-en"
-    },
-    "tech": {
-      "pretitle": "Technologies que nous utilisons",
-      "title": "Nous utilisons les dernières technologies pour construire vos applications"
-    },
-    "whyUs": {
-      "pretitle": "AVANTAGES DE TECHNOLOGEEK",
-      "title": "Pourquoi choisir TechnoloGeek ?",
-      "subtitle": "Nous croyons en la puissance de l'innovation. Notre équipe de magiciens de la technologie est là pour transformer votre vision en réalité. Nous ne nous contentons pas de construire des sites web et des logiciels ; nous créons des expériences numériques immersives qui captivent et engagent.",
-      "prosList": {
-        "title": "Avantages de travailler avec nous",
-        "subtitle": "Choisir TechnoloGeek comme partenaire de conception web et de développement de logiciels comporte de nombreux avantages qui nous distinguent des autres.",
-        "items": [
-          {
-            "title": "Expertise",
-            "subtitle": "Nos experts chevronnés ont une compréhension approfondie des technologies de pointe pour vous maintenir en tête de peloton."
-          },
-          {
-            "title": "Créativité",
-            "subtitle": "Nous ne sommes pas seulement des développeurs ; nous sommes des artistes qui donnent vie à vos idées avec créativité et flair."
-          },
-          {
-            "title": "Orienté résultats",
-            "subtitle": "Votre succès est notre priorité. Nous nous engageons à fournir des solutions qui favorisent la croissance et le retour sur investissement."
-          },
-          {
-            "title": "Collaboration",
-            "subtitle": "Nous travaillons en étroite collaboration avec vous, en veillant à ce que votre contribution façonne le produit final. Votre vision, notre expertise."
-          },
-          {
-            "title": "Multiplateforme",
-            "subtitle": "De la développement web aux applications mobiles et au-delà, nous couvrons tout pour élargir votre empreinte numérique."
-          }
-        ]
-      },
-      "howWeWorkList": {
-        "title": "Comment nous travaillons",
-        "subtitle": "Nous sommes dédiés à aller au-delà pour nos clients. En plus des avantages que nous avons déjà mentionnés, voici encore plus d'avantages que vous apprécierez lorsque vous collaborez avec nous",
-        "items": [
-          {
-            "title": "Nous sommes agiles",
-            "subtitle": "Nous utilisons la méthodologie Agile pour garantir que votre projet soit terminé à temps et dans les limites du budget."
-          },
-          {
-            "title": "Nous sommes transparents",
-            "subtitle": "Notre structure de tarification est transparente, sans frais cachés ni surprises. Vous saurez exactement à quoi vous attendre, ce qui rend la budgétisation et la planification sans tracas."
-          },
-          {
-            "title": "Nous sommes flexibles",
-            "subtitle": "Nous sommes flexibles et adaptables, nous pouvons donc facilement nous adapter à vos besoins et exigences changeants."
-          },
-          {
-            "title": "Nous sommes solidaires",
-            "subtitle": "Nous sommes là pour vous soutenir même après la fin du projet. Nous sommes toujours à un e-mail de distance."
-          }
-        ]
-      }
-    },
-    "services": {
-      "pretitle": "Nos services",
-      "title": "Ce que nous offrons",
-      "subtitle": "De la conception UI/UX, la conception web, le développement frontend au développement backend, nous couvrons tout. Nous proposons également des services de développement d'applications mobiles, de référencement (SEO) et de marketing numérique.",
-      "cards": [
-        {
-          "title": "UI/UX & Systèmes de conception",
-          "subtitle": "Nous nous engageons à créer des interfaces visuellement impressionnantes et intuitives qui captivent les utilisateurs et les maintiennent engagés. Nous créons également des systèmes de conception qui garantissent la cohérence de vos produits numériques."
-        },
-        {
-          "title": "Conception de page de destination",
-          "subtitle": "Nous sommes spécialisés dans la création de pages de destination à fort taux de conversion qui laissent une impression durable et incitent à l'action. Que ce soit pour la génération de leads ou la promotion de produits, nous concevons des pages de destination qui donnent des résultats."
-        },
-        {
-          "title": "Développement frontend",
-          "subtitle": "Nous avons de l'expérience dans la transformation de concepts de conception en applications web interactives et réactives, améliorant les interactions et les expériences utilisateur. Nous offrons également un soutien et une maintenance continus."
-        },
-        {
-          "title": "Développement backend",
-          "subtitle": "En utilisant des technologies modernes et de pointe, nous nous assurons que la partie backend de vos applications est robuste, sécurisée et évolutive, offrant ainsi la base d'expériences utilisateur sans faille."
-        },
-        {
-          "title": "Développement d'applications mobiles",
-          "subtitle": "Nous nous spécialisons dans la création d'applications mobiles centrées sur l'utilisateur, riches en fonctionnalités et compatibles sur différentes plates-formes, vous aidant à vous connecter avec votre public en déplacement."
-        },
-        {
-          "title": "Référencement (SEO)",
-          "subtitle": "Nous optimisons votre site web pour améliorer votre classement dans les moteurs de recherche et générer du trafic organique. Nous offrons également un soutien continu en matière de SEO pour garantir que votre site web reste en tête."
-        }
-      ]
-    }
-  }
+	"sections": {
+		"hero": {
+			"title": "Donnez vie à votre vision unique",
+			"subtitle": "Nous sommes là pour concrétiser vos rêves numériques. Parlons et donnons vie à vos idées.",
+			"buttonText": "Parlons-en"
+		},
+		"tech": {
+			"pretitle": "Technologies que nous utilisons",
+			"title": "Nous utilisons les dernières technologies pour construire vos applications"
+		},
+		"whyUs": {
+			"pretitle": "AVANTAGES DE TECHNOLOGEEK",
+			"title": "Pourquoi choisir TechnoloGeek ?",
+			"subtitle": "Nous croyons en la puissance de l'innovation. Notre équipe de magiciens de la technologie est là pour transformer votre vision en réalité. Nous ne nous contentons pas de construire des sites web et des logiciels ; nous créons des expériences numériques immersives qui captivent et engagent.",
+			"prosList": {
+				"title": "Avantages de travailler avec nous",
+				"subtitle": "Choisir TechnoloGeek comme partenaire de conception web et de développement de logiciels comporte de nombreux avantages qui nous distinguent des autres.",
+				"items": [
+					{
+						"title": "Expertise",
+						"subtitle": "Nos experts chevronnés ont une compréhension approfondie des technologies de pointe pour vous maintenir en tête de peloton."
+					},
+					{
+						"title": "Créativité",
+						"subtitle": "Nous ne sommes pas seulement des développeurs ; nous sommes des artistes qui donnent vie à vos idées avec créativité et flair."
+					},
+					{
+						"title": "Orienté résultats",
+						"subtitle": "Votre succès est notre priorité. Nous nous engageons à fournir des solutions qui favorisent la croissance et le retour sur investissement."
+					},
+					{
+						"title": "Collaboration",
+						"subtitle": "Nous travaillons en étroite collaboration avec vous, en veillant à ce que votre contribution façonne le produit final. Votre vision, notre expertise."
+					},
+					{
+						"title": "Multiplateforme",
+						"subtitle": "De la développement web aux applications mobiles et au-delà, nous couvrons tout pour élargir votre empreinte numérique."
+					}
+				]
+			},
+			"howWeWorkList": {
+				"title": "Comment nous travaillons",
+				"subtitle": "Nous sommes dédiés à aller au-delà pour nos clients. En plus des avantages que nous avons déjà mentionnés, voici encore plus d'avantages que vous apprécierez lorsque vous collaborez avec nous",
+				"items": [
+					{
+						"title": "Nous sommes agiles",
+						"subtitle": "Nous utilisons la méthodologie Agile pour garantir que votre projet soit terminé à temps et dans les limites du budget."
+					},
+					{
+						"title": "Nous sommes transparents",
+						"subtitle": "Notre structure de tarification est transparente, sans frais cachés ni surprises. Vous saurez exactement à quoi vous attendre, ce qui rend la budgétisation et la planification sans tracas."
+					},
+					{
+						"title": "Nous sommes flexibles",
+						"subtitle": "Nous sommes flexibles et adaptables, nous pouvons donc facilement nous adapter à vos besoins et exigences changeants."
+					},
+					{
+						"title": "Nous sommes solidaires",
+						"subtitle": "Nous sommes là pour vous soutenir même après la fin du projet. Nous sommes toujours à un e-mail de distance."
+					}
+				]
+			}
+		},
+		"services": {
+			"pretitle": "Nos services",
+			"title": "Ce que nous offrons",
+			"subtitle": "De la conception UI/UX, la conception web, le développement frontend au développement backend, nous couvrons tout. Nous proposons également des services de développement d'applications mobiles, de référencement (SEO) et de marketing numérique.",
+			"cards": [
+				{
+					"title": "UI/UX & Systèmes de conception",
+					"subtitle": "Nous nous engageons à créer des interfaces visuellement impressionnantes et intuitives qui captivent les utilisateurs et les maintiennent engagés. Nous créons également des systèmes de conception qui garantissent la cohérence de vos produits numériques."
+				},
+				{
+					"title": "Conception de page de destination",
+					"subtitle": "Nous sommes spécialisés dans la création de pages de destination à fort taux de conversion qui laissent une impression durable et incitent à l'action. Que ce soit pour la génération de leads ou la promotion de produits, nous concevons des pages de destination qui donnent des résultats."
+				},
+				{
+					"title": "Développement frontend",
+					"subtitle": "Nous avons de l'expérience dans la transformation de concepts de conception en applications web interactives et réactives, améliorant les interactions et les expériences utilisateur. Nous offrons également un soutien et une maintenance continus."
+				},
+				{
+					"title": "Développement backend",
+					"subtitle": "En utilisant des technologies modernes et de pointe, nous nous assurons que la partie backend de vos applications est robuste, sécurisée et évolutive, offrant ainsi la base d'expériences utilisateur sans faille."
+				},
+				{
+					"title": "Développement d'applications mobiles",
+					"subtitle": "Nous nous spécialisons dans la création d'applications mobiles centrées sur l'utilisateur, riches en fonctionnalités et compatibles sur différentes plates-formes, vous aidant à vous connecter avec votre public en déplacement."
+				},
+				{
+					"title": "Référencement (SEO)",
+					"subtitle": "Nous optimisons votre site web pour améliorer votre classement dans les moteurs de recherche et générer du trafic organique. Nous offrons également un soutien continu en matière de SEO pour garantir que votre site web reste en tête."
+				}
+			]
+		},
+		"testimonial": {
+			"pretitle": "Témoignages",
+			"title": "Ce que disent nos clients",
+			"subtitle": "La satisfaction de nos clients est notre priorité absolue. Voici ce que certains de nos clients précieux ont à dire sur leur expérience de travail avec nous :",
+			"cards": [
+				{
+					"review": "L'équipe de Technologeek a transformé mon site e-commerce en une plateforme de vente performante."
+				},
+				{
+					"review": "Nous dépensons désormais moins tout en recevant plus d'appels entrants. Leur travail de référencement naturel a été un véritable atout. Merci !"
+				},
+				{
+					"review": "Nous recommandons vivement leurs services à quiconque recherche une conception web de haute qualité et le développement de logiciels."
+				}
+			]
+		}
+	}
 }

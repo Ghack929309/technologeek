@@ -1,97 +1,113 @@
 {
-  "sections": {
-    "hero": {
-      "title": "Empower Your Unique Vision",
-      "subtitle": "We're here to turn your digital dreams into reality. Let's talk and bring your ideas to life.",
-      "buttonText": "Let's Talk"
-    },
-    "tech": {
-      "pretitle": "Technologies we use",
-      "title": "We use the latest technologies to build your apps"
-    },
-    "whyUs": {
-      "pretitle": "TECHNOLOGEEK BENEFITS",
-      "title": "Why choose TechnoloGeek?",
-      "subtitle": "We believe in the power of innovation. Our team of tech-savvy wizards is here to transform your vision into reality. We don't just build websites and software; we craft immersive digital experiences that captivate and engage.",
-      "prosList": {
-        "title": "Pros of working with us",
-        "subtitle": "Choosing TechnoloGeek as your Web Design and Software Development partner comes with a multitude of advantages that set us apart from the rest.",
-        "items": [
-          {
-            "title": "Expertise",
-            "subtitle": "Our seasoned experts have a deep understanding of cutting-edge technologies to keep you ahead of the curve."
-          },
-          {
-            "title": "Creativity",
-            "subtitle": "We're not just developers; we're artists who breathe life into your ideas with creativity and flair."
-          },
-          {
-            "title": "Results-Driven",
-            "subtitle": "Your success is our priority. We're committed to delivering solutions that drive growth and ROI."
-          },
-          {
-            "title": "Collaboration",
-            "subtitle": "We work closely with you, ensuring your input shapes the final product. Your vision, our expertise."
-          },
-          {
-            "title": "Cross-Platform",
-            "subtitle": "From web development to mobile apps and beyond, we cover it all to expand your digital footprint."
-          }
-        ]
-      },
-      "howWeWorkList": {
-        "title": "How we work",
-        "subtitle": "We're dedicated to going above and beyond for our clients. In addition to the advantages we've already mentioned, here are even more benefits you'll enjoy when you collaborate with us",
-        "items": [
-          {
-            "title": "We're agile",
-            "subtitle": "We use the Agile methodology to ensure your project is completed on time and within budget."
-          },
-          {
-            "title": "We're transparent",
-            "subtitle": "Our pricing structure is transparent, with no hidden fees or surprises. You'll know exactly what to expect, making budgeting and planning hassle-free."
-          },
-          {
-            "title": "We're flexible",
-            "subtitle": "We're flexible and adaptable, so we can easily adjust to your changing needs and requirements."
-          },
-          {
-            "title": "We're supportive",
-            "subtitle": "We're here to support you even after the project is completed. We're always just an email away."
-          }
-        ]
-      }
-    },
-    "services": {
-      "pretitle": "Our Services",
-      "title": "What we offer",
-      "subtitle": "From UI/UX, Web Design, Frontend Development to Backend Development, we cover it all. We also provide Mobile App Development, SEO, and Digital Marketing services.",
-      "cards": [
-        {
-          "title": "UI/UX & Design Systems",
-          "subtitle": "We are dedicated to creating visually stunning and intuitive interfaces, that captivate users and keep them engaged. We also create design systems that ensure consistency across your digital products"
-        },
-        {
-          "title": "Landing Page Design",
-          "subtitle": "We specialize in crafting high-converting landing pages that make a lasting impression and drive action. Whether it's lead generation or product promotion, we design landing pages that get results."
-        },
-        {
-          "title": "Frontend Development",
-          "subtitle": "We are experienced in turning design concepts into interactive and responsive web applications, enhancing user interactions and experiences. We also provide ongoing support and maintenance."
-        },
-        {
-          "title": "Backend Development",
-          "subtitle": "By using modern and cutting adge technologies, we ensure the Backend of your apps is robust, secure, and scalable, providing the foundation for seamless user experiences."
-        },
-        {
-          "title": "Mobile App Development",
-          "subtitle": "We specialize in creating mobile apps that are user-centric, feature-rich, and compatible across various platforms, helping you connect with your audience on the go."
-        },
-        {
-          "title": "SEO",
-          "subtitle": "We optimize your website to improve your search engine rankings and drive organic traffic. We also provide ongoing SEO support to ensure your website stays on top."
-        }
-      ]
-    }
-  }
+	"sections": {
+		"hero": {
+			"title": "Empower Your Unique Vision",
+			"subtitle": "We're here to turn your digital dreams into reality. Let's talk and bring your ideas to life.",
+			"buttonText": "Let's Talk"
+		},
+		"tech": {
+			"pretitle": "Technologies we use",
+			"title": "We use the latest technologies to build your apps"
+		},
+		"whyUs": {
+			"pretitle": "TECHNOLOGEEK BENEFITS",
+			"title": "Why choose TechnoloGeek?",
+			"subtitle": "We believe in the power of innovation. Our team of tech-savvy wizards is here to transform your vision into reality. We don't just build websites and software; we craft immersive digital experiences that captivate and engage.",
+			"prosList": {
+				"title": "Pros of working with us",
+				"subtitle": "Choosing TechnoloGeek as your Web Design and Software Development partner comes with a multitude of advantages that set us apart from the rest.",
+				"items": [
+					{
+						"title": "Expertise",
+						"subtitle": "Our seasoned experts have a deep understanding of cutting-edge technologies to keep you ahead of the curve."
+					},
+					{
+						"title": "Creativity",
+						"subtitle": "We're not just developers; we're artists who breathe life into your ideas with creativity and flair."
+					},
+					{
+						"title": "Results-Driven",
+						"subtitle": "Your success is our priority. We're committed to delivering solutions that drive growth and ROI."
+					},
+					{
+						"title": "Collaboration",
+						"subtitle": "We work closely with you, ensuring your input shapes the final product. Your vision, our expertise."
+					},
+					{
+						"title": "Cross-Platform",
+						"subtitle": "From web development to mobile apps and beyond, we cover it all to expand your digital footprint."
+					}
+				]
+			},
+			"howWeWorkList": {
+				"title": "How we work",
+				"subtitle": "We're dedicated to going above and beyond for our clients. In addition to the advantages we've already mentioned, here are even more benefits you'll enjoy when you collaborate with us",
+				"items": [
+					{
+						"title": "We're agile",
+						"subtitle": "We use the Agile methodology to ensure your project is completed on time and within budget."
+					},
+					{
+						"title": "We're transparent",
+						"subtitle": "Our pricing structure is transparent, with no hidden fees or surprises. You'll know exactly what to expect, making budgeting and planning hassle-free."
+					},
+					{
+						"title": "We're flexible",
+						"subtitle": "We're flexible and adaptable, so we can easily adjust to your changing needs and requirements."
+					},
+					{
+						"title": "We're supportive",
+						"subtitle": "We're here to support you even after the project is completed. We're always just an email away."
+					}
+				]
+			}
+		},
+		"services": {
+			"pretitle": "Our Services",
+			"title": "What we offer",
+			"subtitle": "From UI/UX, Web Design, Frontend Development to Backend Development, we cover it all. We also provide Mobile App Development, SEO, and Digital Marketing services.",
+			"cards": [
+				{
+					"title": "UI/UX & Design Systems",
+					"subtitle": "We are dedicated to creating visually stunning and intuitive interfaces, that captivate users and keep them engaged. We also create design systems that ensure consistency across your digital products"
+				},
+				{
+					"title": "Landing Page Design",
+					"subtitle": "We specialize in crafting high-converting landing pages that make a lasting impression and drive action. Whether it's lead generation or product promotion, we design landing pages that get results."
+				},
+				{
+					"title": "Frontend Development",
+					"subtitle": "We are experienced in turning design concepts into interactive and responsive web applications, enhancing user interactions and experiences. We also provide ongoing support and maintenance."
+				},
+				{
+					"title": "Backend Development",
+					"subtitle": "By using modern and cutting adge technologies, we ensure the Backend of your apps is robust, secure, and scalable, providing the foundation for seamless user experiences."
+				},
+				{
+					"title": "Mobile App Development",
+					"subtitle": "We specialize in creating mobile apps that are user-centric, feature-rich, and compatible across various platforms, helping you connect with your audience on the go."
+				},
+				{
+					"title": "SEO",
+					"subtitle": "We optimize your website to improve your search engine rankings and drive organic traffic. We also provide ongoing SEO support to ensure your website stays on top."
+				}
+			]
+		},
+		"testimonial": {
+			"pretitle": "Testimonials",
+			"title": "What Our Clients Say",
+			"subtitle": " Our clients satisfaction is our top priority. Here's what some of our valued clients have to say about their experience working with us:",
+			"cards": [
+				{
+					"review": "The Technologeek team transformed my e-commerce website into a high-performing sales platform."
+				},
+				{
+					"review": " We're now spending less while getting more inbound calls. Their natural SEO work has been a game-changer. Thank you!"
+				},
+				{
+					"review": "We highly recommend their services to anyone looking for top-quality web design and software development."
+				}
+			]
+		}
+	}
 }

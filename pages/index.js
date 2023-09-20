@@ -12,59 +12,65 @@ import Navbar from "../components/navbar";
 import { useTranslation } from "../contexts/translations";
 
 const Home = () => {
-  const { t, loading } = useTranslation();
+	const { t, loading } = useTranslation();
 
-  if (loading) return null;
+	if (loading) return null;
 
-  return (
-    <div className="mt-32">
-      <Head>
-        <title>TechnoloGeek - Free Nextjs & TailwindCSS Landing Page Template</title>
-        <meta
-          name="description"
-          content="TechnoloGeek | Your one-stop-shop for all your digital needs."
-        />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <Navbar t={t} />
-      <Hero t={t} />
-      <SectionTitle
-        id="why-us"
-        pretitle={t("sections.whyUs.pretitle")}
-        title={t("sections.whyUs.title")}
-      >
-        {t("sections.whyUs.subtitle")}
-      </SectionTitle>
-      <Benefits data={benefitOne(t)} />
-      <Benefits imgPos="right" data={benefitTwo(t)} />
+	return (
+		<div className="mt-32">
+			<Head>
+				<title>
+					TechnoloGeek - Free Nextjs & TailwindCSS Landing Page Template
+				</title>
+				<meta
+					name="description"
+					content="TechnoloGeek | Your one-stop-shop for all your digital needs."
+				/>
+				<link rel="icon" href="/favicon.ico" />
+			</Head>
+			<Navbar t={t} />
+			<Hero t={t} />
+			<SectionTitle
+				id="why-us"
+				pretitle={t("sections.whyUs.pretitle")}
+				title={t("sections.whyUs.title")}
+			>
+				{t("sections.whyUs.subtitle")}
+			</SectionTitle>
+			<Benefits data={benefitOne(t)} />
+			<Benefits imgPos="right" data={benefitTwo(t)} />
 
-      <SectionTitle
-        id="services"
-        pretitle={t("sections.services.pretitle")}
-        title={t("sections.services.title")}
-      >
-        {t("sections.services.subtitle")}
-      </SectionTitle>
-      <ServiceCards t={t}/>
+			<SectionTitle
+				id="services"
+				pretitle={t("sections.services.pretitle")}
+				title={t("sections.services.title")}
+			>
+				{t("sections.services.subtitle")}
+			</SectionTitle>
+			<ServiceCards t={t} />
 
-      <SectionTitle id="testimonials" pretitle="Testimonials" title="What Our Clients Say">
-        Our clients satisfaction is our top priority. Here's what some of our valued clients have to
-        say about their experience working with us:
-      </SectionTitle>
+			<SectionTitle
+				id="testimonials"
+				pretitle={t("sections.testimonial.pretitle")}
+				title={t("sections.testimonial.title")}
+			>
+				{t("sections.testimonial.subtitle")}
+			</SectionTitle>
 
-      <Testimonials />
+			<Testimonials t={t} />
 
-      <Pricing />
+			<Pricing />
 
-      <SectionTitle id="faq" pretitle="FAQ" title="Frequently asked questions">
-        Below, we've compiled some common questions to provide you with the information you need. If
-        you don't find the answer you're looking for, feel free to contact us directly, and we'll be
-        happy to assist you further.
-      </SectionTitle>
-      <Faq />
-      <Contact />
-    </div>
-  );
+			<SectionTitle id="faq" pretitle="FAQ" title="Frequently asked questions">
+				Below, we've compiled some common questions to provide you with the
+				information you need. If you don't find the answer you're looking for,
+				feel free to contact us directly, and we'll be happy to assist you
+				further.
+			</SectionTitle>
+			<Faq />
+			<Contact />
+		</div>
+	);
 };
 
 export default Home;
