@@ -108,6 +108,62 @@
 					"review": "Nous recommandons vivement leurs services à quiconque recherche une conception web de haute qualité et le développement de logiciels."
 				}
 			]
+		},
+		"pricing": {
+			"pretitle": "Tarification",
+			"title": "Tarification simple et honnête, sans astuces",
+			"subtitle": "Nous croyons en la simplicité et l'honnêteté. Notre tarification est exempte d'artifices et de frais cachés. Avec nous, vous saurez toujours exactement ce que vous obtenez et ce que cela coûte. Pas d'astuces, seulement une tarification transparente qui facilite votre processus de prise de décision.",
+			"cards": [
+				{
+					"title": "Landing Page",
+					"description": "Landing Page à des fins marketing et pour permettre aux clients de vous contacter pour plus d'informations sur votre entreprise.",
+					"price": "599 $",
+					"features": [
+						"Conception personnalisée du Landing Page",
+						"Design adaptatif pour mobile et ordinateur de bureau",
+						"Mise en page conviviale et intuitive",
+						"Optimisation SEO pour une meilleure visibilité sur les moteurs de recherche",
+						"Formulaires de contact ou mécanismes de capture de leads",
+						"Nom de domaine personnalisé",
+						"3 pages maximum incluses dans le prix",
+						"+ 50 $ pour chaque page supplémentaire"
+					]
+				},
+				{
+					"title": "Développement de Logiciels",
+					"description": "Applications Web personnalisées, Logiciels de Démarrage, Logiciels d'Automatisation, Développement d'Applications Mobiles, etc...",
+					"price": "Contactez-nous",
+					"features": [
+						"Planification du processus de développement",
+						"Conception UI/UX",
+						"Prototypage",
+						"Développement Frontend",
+						"Développement Backend",
+						"Conception de base de données",
+						"Tests QA",
+						"Intégration continue / Déploiement continu",
+						"Déploiement dans le Cloud",
+						"Et bien plus encore..."
+					]
+				},
+				{
+					"title": "Augmentation des Effectifs",
+					"description": "Rehaussez le potentiel et la productivité de votre équipe avec nos développeurs seniors expérimentés et passionnés.",
+					"price": "65 $",
+					"per": "par développeur / par heure",
+					"features": [
+						"Ingénieurs logiciels seniors",
+						"Développeurs JavaScript/TypeScript seniors",
+						"Développeurs Frontend seniors React",
+						"Développeurs Full-Stack seniors",
+						"Développeurs Backend seniors Node.js",
+						"Développeurs Full-Stack seniors React/Node.js",
+						"Développeurs Backend seniors Golang",
+						"Concepteurs seniors UI/UX",
+						"Ingénieurs seniors DevOps"
+					]
+				}
+			]
 		}
 	}
 }

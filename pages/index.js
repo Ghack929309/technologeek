@@ -59,7 +59,7 @@ const Home = () => {
 
 			<Testimonials t={t} />
 
-			<Pricing />
+			<Pricing t={t} />
 
 			<SectionTitle id="faq" pretitle="FAQ" title="Frequently asked questions">
 				Below, we've compiled some common questions to provide you with the

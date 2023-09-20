@@ -108,6 +108,62 @@
 					"review": "We highly recommend their services to anyone looking for top-quality web design and software development."
 				}
 			]
+		},
+		"pricing": {
+			"pretitle": "Pricing",
+			"title": "Simple no-tricks pricing",
+			"subtitle": "We believe in keeping things simple and honest. Our pricing is free of gimmicks and hidden fees. With us, you'll always know exactly what you're getting and what it costs. No tricks, just transparent pricing that makes your decision-making process easier.",
+			"cards": [
+				{
+					"title": "Landing Page",
+					"description": "Landing page for marketing purpose and to let customer contact you for more information about your business.",
+					"price": "$599",
+					"features": [
+						"Customized landing page design",
+						"Responsive design for mobile and desktop",
+						"User-friendly and intuitive layout",
+						"SEO optimization for better search engine visibility",
+						"Contact forms or lead capture mechanisms ",
+						"Custom domain name",
+						"3 pages maximum included in the price",
+						"+ $50 for each additional page"
+					]
+				},
+				{
+					"title": "Software Development",
+					"description": "Custom Web Application, Startup Software, Automation Software,Mobile App Development etc...",
+					"price": "Let's Talk",
+					"features": [
+						"Development process planning",
+						"UI/UX Design",
+						"Prototyping",
+						"Frontend Development",
+						"Backend Development",
+						"Database Design",
+						"QA Testing",
+						"CI/CD",
+						"Cloud Deployment",
+						"And more..."
+					]
+				},
+				{
+					"title": "Staff Augmentation",
+					"description": "Elevate your team's potential and productivity with our experienced and passionate Senior Developers.",
+					"price": "$65",
+					"per": "per dev / hour",
+					"features": [
+						"Senior Software Engineers",
+						"Senior JavaScript/TypeScript Developers",
+						"Senior React/Frontend Developers",
+						"Senior Full-Stack Developers",
+						"Senior Backend/Node.js Developers",
+						"Senior React/Node.js Full-Stack Developers",
+						"Senior Backend/Golang Developers",
+						"Senior UI/UX Designers",
+						"Seniors DevOps Engineers"
+					]
+				}
+			]
 		}
 	}
 }
