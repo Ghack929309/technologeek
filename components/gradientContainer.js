@@ -1,13 +1,8 @@
 import React, { useMemo } from "react";
 import { useTheme } from "next-themes";
-import { useIsMounted } from "../utils/useIsMounted";
+import { useIsMounted } from "../hooks/useIsMounted";
 
-export const GradientContainer = ({
-  children,
-  className,
-  border = "1.5",
-  shadow = false,
-}) => {
+export const GradientContainer = ({ children, className, border = "1.5", shadow = false }) => {
   const { theme } = useTheme();
   const isMounted = useIsMounted();
   const isDark = theme === "dark";
