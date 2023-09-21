@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "../contexts/translations";
 
 export const Form = ({
 	register,
@@ -6,8 +7,9 @@ export const Form = ({
 	onSubmit,
 	errors,
 	isSubmitting,
-	t,
 }) => {
+	const { t, loading } = useTranslation();
+	if (loading) return null;
 	return (
 		<form onSubmit={handleSubmit(onSubmit)} noValidate>
 			<div className="mb-4">
