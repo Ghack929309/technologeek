@@ -68,7 +68,7 @@ const ServiceCard = ({ title, details, image }) => {
   return (
     <>
       <div className="w-full px-4 md:w-1/2 lg:w-1/3 ">
-        <GradientContainer className="mb-8 shadow-md hover:shadow-lg p-8 rounded-[20px] md:px-7 xl:px-10">
+        <GradientContainer className="min-h-[320px] mb-8 shadow-md hover:shadow-lg p-8 rounded-[20px] md:px-7 xl:px-10">
           <div className="flex items-center gap-2 mb-6">
             <Image src={image} width="80" height="80" alt="Avatar" />
             <h4 className="text-xl font-semibold text-dark">{title}</h4>

@@ -1,14 +1,10 @@
 import React from "react";
-import { useIsMounted } from "../hooks/useIsMounted";
 import { useTheme } from "next-themes";
 import classNames from "classnames";
 
 export const InfiniteSlider = ({ slides }) => {
   const { theme } = useTheme();
-  //   const isMounted = useIsMounted();
   const isDark = theme === "dark";
-
-  //   if (!isMounted) return null;
 
   return (
     <div
