@@ -14,6 +14,7 @@ const Contact = ({ t }) => {
 		isSubmitting,
 		message,
 		isSuccess,
+		s,
 	} = useContactForm();
 	return (
 		<>
@@ -32,7 +33,6 @@ const Contact = ({ t }) => {
 								<div className="mb-12 w-full shrink-0 grow-0 basis-auto md:px-3 lg:mb-0 lg:w-6/12 lg:px-6">
 									{!isSubmitSuccessful && (
 										<Form
-											t={t}
 											handleSubmit={handleSubmit}
 											register={register}
 											onSubmit={onSubmit}
