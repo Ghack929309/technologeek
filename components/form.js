@@ -6,6 +6,7 @@ export const Form = ({
 	onSubmit,
 	errors,
 	isSubmitting,
+	t,
 }) => {
 	return (
 		<form onSubmit={handleSubmit(onSubmit)} noValidate>
@@ -14,7 +15,7 @@ export const Form = ({
 					htmlFor="email"
 					className="block mb-2 text-sm text-gray-600 dark:text-gray-400"
 				>
-					Email Address
+					{t("sections.contact.email")}
 				</label>
 				<input
 					type="email"
@@ -46,14 +47,14 @@ export const Form = ({
 					htmlFor="subject"
 					className="block mb-2 text-sm text-gray-600 dark:text-gray-400"
 				>
-					Subject
+					{t("sections.contact.subject")}
 				</label>
 				<input
 					id="subject"
 					{...register("subject", {
 						required: "Type a subject",
 					})}
-					placeholder="Type a subject here..."
+					placeholder={t("sections.contact.placeholderSubject")}
 					className={`w-full px-3 py-2 text-gray-600 placeholder-gray-300 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring   ${
 						errors.subject
 							? "border-red-600 focus:border-red-600 ring-red-100"
@@ -72,7 +73,7 @@ export const Form = ({
 					htmlFor="message"
 					className="block mb-2 text-sm text-gray-600 dark:text-gray-400"
 				>
-					Your Message
+					{t("sections.contact.message")}
 				</label>
 
 				<textarea
@@ -81,7 +82,7 @@ export const Form = ({
 					{...register("message", {
 						required: "Enter your Message",
 					})}
-					placeholder="Your Message"
+					placeholder={t("sections.contact.placeholderMessage")}
 					className={`w-full px-3 py-2 text-gray-600 placeholder-gray-300 bg-white border border-gray-300 rounded-md h-28 focus:outline-none focus:ring   ${
 						errors.message
 							? "border-red-600 focus:border-red-600 ring-red-100"
@@ -122,7 +123,7 @@ export const Form = ({
 							></path>
 						</svg>
 					) : (
-						"Send Message"
+						t("sections.contact.buttonText")
 					)}
 				</button>
 			</div>

@@ -61,14 +61,15 @@ const Home = () => {
 
 			<Pricing t={t} />
 
-			<SectionTitle id="faq" pretitle="FAQ" title="Frequently asked questions">
-				Below, we've compiled some common questions to provide you with the
-				information you need. If you don't find the answer you're looking for,
-				feel free to contact us directly, and we'll be happy to assist you
-				further.
+			<SectionTitle
+				id="faq"
+				pretitle={t("sections.faq.pretitle")}
+				title={t("sections.faq.title")}
+			>
+				{t("sections.faq.subtitle")}
 			</SectionTitle>
-			<Faq />
-			<Contact />
+			<Faq t={t} />
+			<Contact t={t} />
 		</div>
 	);
 };

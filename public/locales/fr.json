@@ -164,6 +164,58 @@
 					]
 				}
 			]
+		},
+		"faq": {
+			"pretitle": "FAQ",
+			"title": "Foire aux Questions",
+			"subtitle": "Ci-dessous, nous avons compilé quelques questions courantes pour vous fournir les informations dont vous avez besoin. Si vous ne trouvez pas la réponse que vous cherchez, n'hésitez pas à nous contacter directement, et nous serons heureux de vous aider davantage.",
+			"questions": [
+				{
+					"question": "Comment puis-je commencer avec TechnoloGeek ?",
+					"answer": "Commencer est simple ! Il vous suffit de nous contacter via notre formulaire de contact ou de nous appeler. Nous programmerons une consultation initiale pour discuter de votre projet, de vos objectifs et de la meilleure façon de vous aider à réussir."
+				},
+				{
+					"question": "Quels services propose TechnoloGeek ?",
+					"answer": "Nous proposons une large gamme de services, notamment la conception UI/UX, la conception web, le développement frontend et backend, le développement d'applications mobiles, les services de référencement (SEO), le marketing numérique, DevOps et la conception de pages de destination. Nous couvrons tous les aspects du développement web et du marketing numérique pour répondre à vos besoins spécifiques."
+				},
+				{
+					"question": "Comment puis-je demander un devis pour mon projet ?",
+					"answer": "Obtenir un devis est simple ! Il vous suffit de visiter notre page de contact et de remplir le formulaire avec les détails de votre projet. Nous vous répondrons rapidement avec un devis personnalisé adapté à vos besoins."
+				},
+				{
+					"question": "Quels secteurs d'activité dessert TechnoloGeek ?",
+					"answer": "Nous travaillons avec des clients dans divers secteurs, notamment le commerce électronique, les soins de santé, la finance, l'éducation et la technologie, pour n'en nommer que quelques-uns. Notre expertise est adaptable, et nous sommes équipés pour servir des secteurs diversifiés."
+				},
+				{
+					"question": "Combien de temps faut-il généralement pour terminer un projet ?",
+					"answer": "Les délais de projet varient en fonction de la complexité et de la portée. Lors de notre consultation initiale, nous discuterons de la chronologie de votre projet et vous fournirons une date estimée de réalisation. Soyez assuré que nous nous efforçons de respecter les délais sans compromettre la qualité."
+				},
+				{
+					"question": "Pouvez-vous redessiner un site web ou une application existante ?",
+					"answer": "Absolument ! Nous avons de l'expérience dans la refonte et la modernisation de sites web et d'applications existants pour améliorer leur fonctionnalité, leur esthétique et l'expérience utilisateur. Nous pouvons travailler avec vos actifs actuels pour créer une présence numérique fraîche et moderne."
+				},
+				{
+					"question": "Qu'est-ce qui distingue TechnoloGeek des autres agences ?",
+					"answer": "Chez TechnoloGeek, nous sommes fiers de notre engagement envers la créativité, l'innovation et la satisfaction du client. L'expertise de notre équipe, notre dévouement à la qualité et notre approche personnalisée nous distinguent. Nous croyons en l'établissement de partenariats à long terme et en la réalisation de résultats exceptionnels."
+				},
+				{
+					"question": "Fournissez-vous un support et une maintenance continus ?",
+					"answer": "Oui, nous proposons des services de support et de maintenance continus pour garantir que vos actifs numériques continuent de fonctionner de manière optimale. Notre équipe de support est disponible 24/7 pour traiter tout problème ou préoccupation."
+				}
+			]
+		},
+		"contact": {
+			"pretitle": "Prêt à démarrer votre projet ?",
+			"title": "Contactez-nous",
+			"email": "Adresse e-mail",
+			"subject": "Sujet",
+			"placeholderSubject": "Saisissez un sujet ici...",
+			"message": "Votre message",
+			"placeholderMessage": "Saisissez votre message ici...",
+			"buttonText": "Envoyer le message",
+			"successMessage": "Message envoyé avec succès",
+			"back": "Retour",
+			"failedMessage": "Oops, quelque chose s'est mal passé !"
 		}
 	}
 }
