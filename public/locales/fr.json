@@ -9,6 +9,14 @@
 			"pretitle": "Technologies que nous utilisons",
 			"title": "Nous utilisons les dernières technologies pour construire vos applications"
 		},
+		"navigation": {
+			"why": "Pourquoi Nous",
+			"services": "Services",
+			"pricing": "Tarif",
+			"faq": "FAQ",
+			"contact": "Contactez-nous",
+			"privacy": "Confidentialité"
+		},
 		"whyUs": {
 			"pretitle": "AVANTAGES DE TECHNOLOGEEK",
 			"title": "Pourquoi choisir TechnoloGeek ?",
