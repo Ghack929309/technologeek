@@ -34,10 +34,10 @@ const Navbar = ({ t }) => {
 										<span>TechnoloGeek</span>
 									</span>
 								</Link>
-								<div className="flex gap-x-6">
+								<div className="flex gap-x-6 lg:hidden">
 									<Disclosure.Button
 										aria-label="Toggle Menu"
-										className=" px-2 py-1 ml-auto text-gray-500 rounded-md lg:hidden hover:text-teal-500 focus:text-teal-500 focus:outline-none dark:text-gray-300 dark:focus:bg-trueGray-700"
+										className=" px-2 py-1 ml-auto text-gray-500 rounded-md hover:text-teal-500 focus:text-teal-500 focus:outline-none dark:text-gray-300 dark:focus:bg-trueGray-700"
 									>
 										<svg
 											className="w-6 h-6 fill-current"
