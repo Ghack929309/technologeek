@@ -5,10 +5,10 @@ import classNames from "classnames";
 
 export const InfiniteSlider = ({ slides }) => {
   const { theme } = useTheme();
-  const isMounted = useIsMounted();
+  //   const isMounted = useIsMounted();
   const isDark = theme === "dark";
 
-  if (!isMounted) return null;
+  //   if (!isMounted) return null;
 
   return (
     <div

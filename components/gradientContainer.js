@@ -2,9 +2,9 @@ import React, { useMemo } from "react";
 import { useTheme } from "next-themes";
 import { useIsMounted } from "../hooks/useIsMounted";
 
-export const GradientContainer = ({ children, className, border = "1.5", shadow = false }) => {
+export const GradientContainer = ({ children, className, border = "1.5" }) => {
   const { theme } = useTheme();
-  const isMounted = useIsMounted();
+  // const isMounted = useIsMounted();
   const isDark = theme === "dark";
   const style = {
     border: `${border}px solid #0000`,
@@ -14,18 +14,11 @@ export const GradientContainer = ({ children, className, border = "1.5", shadow 
     animation: "10s rotate linear infinite",
   };
 
-  if (!isMounted) return null;
-  if (!shadow) {
-    return (
-      <div style={style} className={className}>
-        {children}
-      </div>
-    );
-  }
+  // if (!isMounted) return null;
 
   return (
-    <div class="relative">
-      <div class="absolute -inset-2 rounded-lg bg-gradient-to-r from-green-400 via-blue-500 to-cyan-400 animate-gradient opacity-75 blur"></div>
+    <div className="relative">
+      <div className="absolute -inset-2 rounded-lg bg-gradient-to-r from-green-400 via-blue-500 to-cyan-400 animate-gradient opacity-75 blur"></div>
       <div style={style} className={`relative ${className}`}>
         {children}
       </div>
