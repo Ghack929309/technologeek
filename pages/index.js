@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Hero from "../components/hero";
 import SectionTitle from "../components/sectionTitle";
 import { benefitOne, benefitTwo } from "../constants/data";
@@ -9,8 +8,8 @@ import Faq from "../components/faq";
 import Contact from "../components/contact";
 import { Pricing } from "../components/pricing";
 import Navbar from "../components/navbar";
-import Seo from "../components/Seo";
 import { useTranslation } from "../contexts/translations";
+import { SeoComponent } from "../components/SeoComponent";
 
 const Home = () => {
   const { t, loading } = useTranslation();
@@ -18,18 +17,9 @@ const Home = () => {
   if (loading) return null;
 
   return (
-    <Seo>
+    <>
+      <SeoComponent />
       <div className="mt-32">
-        <Head>
-          <title>
-            TechnoloGeek - Free Nextjs & TailwindCSS Landing Page Template
-          </title>
-          <meta
-            name="description"
-            content="TechnoloGeek | Your one-stop-shop for all your digital needs."
-          />
-          <link rel="icon" href="/favicon.ico" />
-        </Head>
         <Navbar t={t} />
         <Hero t={t} />
         <SectionTitle
@@ -69,7 +59,7 @@ const Home = () => {
         <Faq t={t} />
         <Contact t={t} />
       </div>
-    </Seo>
+    </>
   );
 };
 

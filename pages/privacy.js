@@ -1,12 +1,13 @@
 import React from "react";
 import { PrivacyComponent } from "../components/privacyComponent";
-import Seo from "../components/Seo";
+import { SeoComponent } from "../components/SeoComponent";
 
 const Privacy = () => {
   return (
-    <Seo title="TechchnoloGeek | Privacy & Policies">
+    <>
+      <SeoComponent title="TechchnoloGeek | Privacy & Policies" />
       <PrivacyComponent />
-    </Seo>
+    </>
   );
 };
 export default Privacy;
