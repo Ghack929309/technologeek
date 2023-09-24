@@ -68,7 +68,7 @@ export const Seo = ({
     <meta
       name="twitter:image"
       key="twitter:image"
-      content={`https://beta.reactjs.org${image}`}
+      content={`https://www.technologeek.ca/img/how.png`}
     />
     <meta
       name="google-site-verification"
