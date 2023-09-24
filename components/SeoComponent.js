@@ -1,5 +1,6 @@
 import * as React from "react";
 import Head from "next/head";
+import Script from "next/script";
 
 export const SeoComponent = ({
   title,
@@ -76,6 +77,18 @@ export const SeoComponent = ({
         name="google-site-verification"
         content="j1duf8XRaKuZyGvhPd8GkYXHG7LI4GYbIvAXBsqTC9U"
       />
+      {/* <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-K4ZD0K08LV"></script>
+      <script>
+        {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments)}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-K4ZD0K08LV');
+    `}
+      </script> */}
     </Head>
   );
 };

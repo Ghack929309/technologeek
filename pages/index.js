@@ -10,6 +10,7 @@ import { Pricing } from "../components/pricing";
 import Navbar from "../components/navbar";
 import { useTranslation } from "../contexts/translations";
 import { SeoComponent } from "../components/SeoComponent";
+import { Analytics } from "../components/Analytics";
 
 const Home = () => {
   const { t, loading } = useTranslation();
@@ -59,6 +60,7 @@ const Home = () => {
         <Faq t={t} />
         <Contact t={t} />
       </div>
+      <Analytics />
     </>
   );
 };
