@@ -7,7 +7,7 @@ import { TranslationProvider } from "../contexts/translations";
 function MyApp({ Component, pageProps }) {
   return (
     <TranslationProvider>
-      <ThemeProvider attribute="class">
+      <ThemeProvider defaultTheme="light" attribute="class">
         <Component {...pageProps} />
         <Footer />
         <PopupWidget />
