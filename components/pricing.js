@@ -28,9 +28,12 @@ export const Pricing = ({ t }) => {
             <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
               {t("sections.pricing.cards")[0].description}
             </p>
-            <div className="flex justify-center items-baseline my-8">
+            <div className="flex flex-col justify-center items-center my-8">
               <span className="mr-2 text-4xl font-extrabold">
                 {t("sections.pricing.cards")[0].price}
+              </span>
+              <span className="text-gray-500 dark:text-gray-400">
+                {t("sections.pricing.cards")[0].per}
               </span>
             </div>
             <ul role="list" className="mb-8 space-y-4 text-left">

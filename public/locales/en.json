@@ -1,232 +1,233 @@
 {
-	"sections": {
-		"hero": {
-			"title": "Empower Your Unique Vision",
-			"subtitle": "We're here to turn your digital dreams into reality. Let's talk and bring your ideas to life.",
-			"buttonText": "Let's Talk"
-		},
-		"tech": {
-			"pretitle": "Technologies we use",
-			"title": "We use the latest technologies to build your apps"
-		},
-		"navigation": {
-			"why": "Why Us",
-			"services": "Services",
-			"pricing": "Pricing",
-			"faq": "FAQ",
-			"contact": "Contact Us",
-			"privacy": "Privacy"
-		},
-		"whyUs": {
-			"pretitle": "TECHNOLOGEEK BENEFITS",
-			"title": "Why choose TechnoloGeek?",
-			"subtitle": "We believe in the power of innovation. Our team of tech-savvy wizards is here to transform your vision into reality. We don't just build websites and software; we craft immersive digital experiences that captivate and engage.",
-			"prosList": {
-				"title": "Pros of working with us",
-				"subtitle": "Choosing TechnoloGeek as your Web Design and Software Development partner comes with a multitude of advantages that set us apart from the rest.",
-				"items": [
-					{
-						"title": "Expertise",
-						"subtitle": "Our seasoned experts have a deep understanding of cutting-edge technologies to keep you ahead of the curve."
-					},
-					{
-						"title": "Creativity",
-						"subtitle": "We're not just developers; we're artists who breathe life into your ideas with creativity and flair."
-					},
-					{
-						"title": "Results-Driven",
-						"subtitle": "Your success is our priority. We're committed to delivering solutions that drive growth and ROI."
-					},
-					{
-						"title": "Collaboration",
-						"subtitle": "We work closely with you, ensuring your input shapes the final product. Your vision, our expertise."
-					},
-					{
-						"title": "Cross-Platform",
-						"subtitle": "From web development to mobile apps and beyond, we cover it all to expand your digital footprint."
-					}
-				]
-			},
-			"howWeWorkList": {
-				"title": "How we work",
-				"subtitle": "We're dedicated to going above and beyond for our clients. In addition to the advantages we've already mentioned, here are even more benefits you'll enjoy when you collaborate with us",
-				"items": [
-					{
-						"title": "We're agile",
-						"subtitle": "We use the Agile methodology to ensure your project is completed on time and within budget."
-					},
-					{
-						"title": "We're transparent",
-						"subtitle": "Our pricing structure is transparent, with no hidden fees or surprises. You'll know exactly what to expect, making budgeting and planning hassle-free."
-					},
-					{
-						"title": "We're flexible",
-						"subtitle": "We're flexible and adaptable, so we can easily adjust to your changing needs and requirements."
-					},
-					{
-						"title": "We're supportive",
-						"subtitle": "We're here to support you even after the project is completed. We're always just an email away."
-					}
-				]
-			}
-		},
-		"services": {
-			"pretitle": "Our Services",
-			"title": "What we offer",
-			"subtitle": "From UI/UX, Web Design, Frontend Development to Backend Development, we cover it all. We also provide Mobile App Development, SEO, and Digital Marketing services.",
-			"cards": [
-				{
-					"title": "UI/UX & Design Systems",
-					"subtitle": "We are dedicated to creating visually stunning and intuitive interfaces, that captivate users and keep them engaged. We also create design systems that ensure consistency across your digital products"
-				},
-				{
-					"title": "Landing Page Design",
-					"subtitle": "We specialize in crafting high-converting landing pages that make a lasting impression and drive action. Whether it's lead generation or product promotion, we design landing pages that get results."
-				},
-				{
-					"title": "Frontend Development",
-					"subtitle": "We are experienced in turning design concepts into interactive and responsive web applications, enhancing user interactions and experiences. We also provide ongoing support and maintenance."
-				},
-				{
-					"title": "Backend Development",
-					"subtitle": "By using modern and cutting adge technologies, we ensure the Backend of your apps is robust, secure, and scalable, providing the foundation for seamless user experiences."
-				},
-				{
-					"title": "Mobile App Development",
-					"subtitle": "We specialize in creating mobile apps that are user-centric, feature-rich, and compatible across various platforms, helping you connect with your audience on the go."
-				},
-				{
-					"title": "SEO",
-					"subtitle": "We optimize your website to improve your search engine rankings and drive organic traffic. We also provide ongoing SEO support to ensure your website stays on top."
-				}
-			]
-		},
-		"testimonial": {
-			"pretitle": "Testimonials",
-			"title": "What Our Clients Say",
-			"subtitle": " Our clients satisfaction is our top priority. Here's what some of our valued clients have to say about their experience working with us:",
-			"cards": [
-				{
-					"review": "The Technologeek team transformed my e-commerce website into a high-performing sales platform."
-				},
-				{
-					"review": "We're now spending less while getting more inbound calls. Their natural SEO work has been a game-changer. Thank you!"
-				},
-				{
-					"review": "We highly recommend their services to anyone looking for top-quality web design and software development."
-				}
-			]
-		},
-		"pricing": {
-			"pretitle": "Pricing",
-			"title": "Simple no-tricks pricing",
-			"subtitle": "We believe in keeping things simple and honest. Our pricing is free of gimmicks and hidden fees. With us, you'll always know exactly what you're getting and what it costs. No tricks, just transparent pricing that makes your decision-making process easier.",
-			"cards": [
-				{
-					"title": "Landing Page",
-					"description": "Landing page for marketing purpose and to let customer contact you for more information about your business.",
-					"price": "$599",
-					"features": [
-						"Customized landing page design",
-						"Responsive design for mobile and desktop",
-						"User-friendly and intuitive layout",
-						"SEO optimization for better search engine visibility",
-						"Contact forms or lead capture mechanisms ",
-						"Custom domain name",
-						"3 pages maximum included in the price",
-						"+ $50 for each additional page"
-					]
-				},
-				{
-					"title": "Software Development",
-					"description": "Custom Web Application, Startup Software, Automation Software,Mobile App Development etc...",
-					"price": "Let's Talk",
-					"features": [
-						"Development process planning",
-						"UI/UX Design",
-						"Prototyping",
-						"Frontend Development",
-						"Backend Development",
-						"Database Design",
-						"QA Testing",
-						"CI/CD",
-						"Cloud Deployment",
-						"And more..."
-					]
-				},
-				{
-					"title": "Staff Augmentation",
-					"description": "Elevate your team's potential and productivity with our experienced and passionate Senior Developers.",
-					"price": "$65",
-					"per": "per dev / hour",
-					"features": [
-						"Senior Software Engineers",
-						"Senior JavaScript/TypeScript Developers",
-						"Senior React/Frontend Developers",
-						"Senior Full-Stack Developers",
-						"Senior Backend/Node.js Developers",
-						"Senior React/Node.js Full-Stack Developers",
-						"Senior Backend/Golang Developers",
-						"Senior UI/UX Designers",
-						"Seniors DevOps Engineers"
-					]
-				}
-			]
-		},
-		"faq": {
-			"pretitle": "FAQ",
-			"title": "Frequently Asked Questions",
-			"subtitle": "Below, we've compiled some common questions to provide you with the information you need. If you don't find the answer you're looking for, feel free to contact us directly, and we'll be happy to assist you further.",
-			"questions": [
-				{
-					"question": "How can I get started with TechnoloGeek?",
-					"answer": "Getting started is simple! Just reach out to us through our contact form or give us a call. We'll schedule an initial consultation to discuss your project, goals, and how we can best assist you in achieving success."
-				},
-				{
-					"question": " What services does TechnoloGeek offer?",
-					"answer": "We offer a wide range of services, including UI/UX design, web design, frontend and backend development, mobile app development, SEO services, digital marketing, DevOps, and landing page design. We cover all aspects of web development and digital marketing to meet your specific needs."
-				},
-				{
-					"question": " How can I request a quote for my project?",
-					"answer": "Getting a quote is easy! Simply visit our Contact page and fill out the form with your project details. We'll get back to you promptly with a customized quote tailored to your requirements."
-				},
-				{
-					"question": "What industries does TechnoloGeek serve?",
-					"answer": "We work with clients across various industries, including but not limited to e-commerce, healthcare, finance, education, and technology. Our expertise is adaptable, and we're equipped to serve diverse sectors."
-				},
-				{
-					"question": "How long does it typically take to complete a project?",
-					"answer": "Project timelines vary based on complexity and scope. During our initial consultation, we'll discuss your project's timeline and provide you with an estimated completion date. Rest assured, we strive to meet deadlines without compromising on quality."
-				},
-				{
-					"question": "Can you redesign an existing website or application?",
-					"answer": "Absolutely! We have experience in redesigning and revamping existing websites and applications to improve their functionality, aesthetics, and user experience. We can work with your current assets to create a fresh and modern digital presence."
-				},
-				{
-					"question": "What sets TechnoloGeek apart from other agencies?",
-					"answer": "At TechnoloGeek, we pride ourselves on our commitment to creativity, innovation, and client satisfaction. Our team's expertise, dedication to quality, and personalized approach make us stand out. We believe in fostering long-term partnerships and delivering exceptional results."
-				},
-				{
-					"question": "Do you provide ongoing support and maintenance?",
-					"answer": "Yes, we offer ongoing support and maintenance services to ensure your digital assets continue to perform optimally. Our support team is available 24/7 to address any issues or concerns."
-				}
-			]
-		},
-		"contact": {
-			"pretitle": " Ready to start your project ?",
-			"title": "Contact Us",
-			"email": "Email Address",
-			"Subject": "Subject",
-			"placeholderSubject": "Type a subject here...",
-			"message": "Your Message",
-			"placeholderMessage": "Type your message here...",
-			"buttonText": "Send Message",
-			"successMessage": "Message sent successfully",
-			"back": "Go back",
-			"faildMessage": "Oops, Something went wrong!"
-		},
-		"privacy": {
-			"link": "privacy"
-		}
-	}
+  "sections": {
+    "hero": {
+      "title": "Empower Your Unique Vision",
+      "subtitle": "We're here to turn your digital dreams into reality. Let's talk and bring your ideas to life.",
+      "buttonText": "Let's Talk"
+    },
+    "tech": {
+      "pretitle": "Technologies we use",
+      "title": "We use the latest technologies to build your apps"
+    },
+    "navigation": {
+      "why": "Why Us",
+      "services": "Services",
+      "pricing": "Pricing",
+      "faq": "FAQ",
+      "contact": "Contact Us",
+      "privacy": "Privacy"
+    },
+    "whyUs": {
+      "pretitle": "TECHNOLOGEEK BENEFITS",
+      "title": "Why choose TechnoloGeek?",
+      "subtitle": "We believe in the power of innovation. Our team of tech-savvy wizards is here to transform your vision into reality. We don't just build websites and software; we craft immersive digital experiences that captivate and engage.",
+      "prosList": {
+        "title": "Pros of working with us",
+        "subtitle": "Choosing TechnoloGeek as your Web Design and Software Development partner comes with a multitude of advantages that set us apart from the rest.",
+        "items": [
+          {
+            "title": "Expertise",
+            "subtitle": "Our seasoned experts have a deep understanding of cutting-edge technologies to keep you ahead of the curve."
+          },
+          {
+            "title": "Creativity",
+            "subtitle": "We're not just developers; we're artists who breathe life into your ideas with creativity and flair."
+          },
+          {
+            "title": "Results-Driven",
+            "subtitle": "Your success is our priority. We're committed to delivering solutions that drive growth and ROI."
+          },
+          {
+            "title": "Collaboration",
+            "subtitle": "We work closely with you, ensuring your input shapes the final product. Your vision, our expertise."
+          },
+          {
+            "title": "Cross-Platform",
+            "subtitle": "From web development to mobile apps and beyond, we cover it all to expand your digital footprint."
+          }
+        ]
+      },
+      "howWeWorkList": {
+        "title": "How we work",
+        "subtitle": "We're dedicated to going above and beyond for our clients. In addition to the advantages we've already mentioned, here are even more benefits you'll enjoy when you collaborate with us",
+        "items": [
+          {
+            "title": "We're agile",
+            "subtitle": "We use the Agile methodology to ensure your project is completed on time and within budget."
+          },
+          {
+            "title": "We're transparent",
+            "subtitle": "Our pricing structure is transparent, with no hidden fees or surprises. You'll know exactly what to expect, making budgeting and planning hassle-free."
+          },
+          {
+            "title": "We're flexible",
+            "subtitle": "We're flexible and adaptable, so we can easily adjust to your changing needs and requirements."
+          },
+          {
+            "title": "We're supportive",
+            "subtitle": "We're here to support you even after the project is completed. We're always just an email away."
+          }
+        ]
+      }
+    },
+    "services": {
+      "pretitle": "Our Services",
+      "title": "What we offer",
+      "subtitle": "From UI/UX, Web Design, Frontend Development to Backend Development, we cover it all. We also provide Mobile App Development, SEO, and Digital Marketing services.",
+      "cards": [
+        {
+          "title": "UI/UX & Design Systems",
+          "subtitle": "We are dedicated to creating visually stunning and intuitive interfaces, that captivate users and keep them engaged. We also create design systems that ensure consistency across your digital products"
+        },
+        {
+          "title": "Landing Page Design",
+          "subtitle": "We specialize in crafting high-converting landing pages that make a lasting impression and drive action. Whether it's lead generation or product promotion, we design landing pages that get results."
+        },
+        {
+          "title": "Frontend Development",
+          "subtitle": "We are experienced in turning design concepts into interactive and responsive web applications, enhancing user interactions and experiences. We also provide ongoing support and maintenance."
+        },
+        {
+          "title": "Backend Development",
+          "subtitle": "By using modern and cutting adge technologies, we ensure the Backend of your apps is robust, secure, and scalable, providing the foundation for seamless user experiences."
+        },
+        {
+          "title": "Mobile App Development",
+          "subtitle": "We specialize in creating mobile apps that are user-centric, feature-rich, and compatible across various platforms, helping you connect with your audience on the go."
+        },
+        {
+          "title": "SEO",
+          "subtitle": "We optimize your website to improve your search engine rankings and drive organic traffic. We also provide ongoing SEO support to ensure your website stays on top."
+        }
+      ]
+    },
+    "testimonial": {
+      "pretitle": "Testimonials",
+      "title": "What Our Clients Say",
+      "subtitle": " Our clients satisfaction is our top priority. Here's what some of our valued clients have to say about their experience working with us:",
+      "cards": [
+        {
+          "review": "The Technologeek team transformed my e-commerce website into a high-performing sales platform."
+        },
+        {
+          "review": "We're now spending less while getting more inbound calls. Their natural SEO work has been a game-changer. Thank you!"
+        },
+        {
+          "review": "We highly recommend their services to anyone looking for top-quality web design and software development."
+        }
+      ]
+    },
+    "pricing": {
+      "pretitle": "Pricing",
+      "title": "Simple no-tricks pricing",
+      "subtitle": "We believe in keeping things simple and honest. Our pricing is free of gimmicks and hidden fees. With us, you'll always know exactly what you're getting and what it costs. No tricks, just transparent pricing that makes your decision-making process easier.",
+      "cards": [
+        {
+          "title": "Landing Page",
+          "description": "Landing page for marketing purpose and to let customer contact you for more information about your business.",
+          "price": "$599",
+          "per": "starting price",
+          "features": [
+            "Customized landing page design",
+            "Responsive design for mobile and desktop",
+            "User-friendly and intuitive layout",
+            "SEO optimization for better search engine visibility",
+            "Contact forms or lead capture mechanisms ",
+            "Custom domain name",
+            "3 pages maximum included in the price",
+            "+ $50 for each additional page"
+          ]
+        },
+        {
+          "title": "Software Development",
+          "description": "Custom Web Application, Startup Software, Automation Software,Mobile App Development etc...",
+          "price": "Let's Talk",
+          "features": [
+            "Development process planning",
+            "UI/UX Design",
+            "Prototyping",
+            "Frontend Development",
+            "Backend Development",
+            "Database Design",
+            "QA Testing",
+            "CI/CD",
+            "Cloud Deployment",
+            "And more..."
+          ]
+        },
+        {
+          "title": "Staff Augmentation",
+          "description": "Elevate your team's potential and productivity with our experienced and passionate Senior Developers.",
+          "price": "$65",
+          "per": "per dev / hour",
+          "features": [
+            "Senior Software Engineers",
+            "Senior JavaScript/TypeScript Developers",
+            "Senior React/Frontend Developers",
+            "Senior Full-Stack Developers",
+            "Senior Backend/Node.js Developers",
+            "Senior React/Node.js Full-Stack Developers",
+            "Senior Backend/Golang Developers",
+            "Senior UI/UX Designers",
+            "Seniors DevOps Engineers"
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "pretitle": "FAQ",
+      "title": "Frequently Asked Questions",
+      "subtitle": "Below, we've compiled some common questions to provide you with the information you need. If you don't find the answer you're looking for, feel free to contact us directly, and we'll be happy to assist you further.",
+      "questions": [
+        {
+          "question": "How can I get started with TechnoloGeek?",
+          "answer": "Getting started is simple! Just reach out to us through our contact form or give us a call. We'll schedule an initial consultation to discuss your project, goals, and how we can best assist you in achieving success."
+        },
+        {
+          "question": " What services does TechnoloGeek offer?",
+          "answer": "We offer a wide range of services, including UI/UX design, web design, frontend and backend development, mobile app development, SEO services, digital marketing, DevOps, and landing page design. We cover all aspects of web development and digital marketing to meet your specific needs."
+        },
+        {
+          "question": " How can I request a quote for my project?",
+          "answer": "Getting a quote is easy! Simply visit our Contact page and fill out the form with your project details. We'll get back to you promptly with a customized quote tailored to your requirements."
+        },
+        {
+          "question": "What industries does TechnoloGeek serve?",
+          "answer": "We work with clients across various industries, including but not limited to e-commerce, healthcare, finance, education, and technology. Our expertise is adaptable, and we're equipped to serve diverse sectors."
+        },
+        {
+          "question": "How long does it typically take to complete a project?",
+          "answer": "Project timelines vary based on complexity and scope. During our initial consultation, we'll discuss your project's timeline and provide you with an estimated completion date. Rest assured, we strive to meet deadlines without compromising on quality."
+        },
+        {
+          "question": "Can you redesign an existing website or application?",
+          "answer": "Absolutely! We have experience in redesigning and revamping existing websites and applications to improve their functionality, aesthetics, and user experience. We can work with your current assets to create a fresh and modern digital presence."
+        },
+        {
+          "question": "What sets TechnoloGeek apart from other agencies?",
+          "answer": "At TechnoloGeek, we pride ourselves on our commitment to creativity, innovation, and client satisfaction. Our team's expertise, dedication to quality, and personalized approach make us stand out. We believe in fostering long-term partnerships and delivering exceptional results."
+        },
+        {
+          "question": "Do you provide ongoing support and maintenance?",
+          "answer": "Yes, we offer ongoing support and maintenance services to ensure your digital assets continue to perform optimally. Our support team is available 24/7 to address any issues or concerns."
+        }
+      ]
+    },
+    "contact": {
+      "pretitle": " Ready to start your project ?",
+      "title": "Contact Us",
+      "email": "Email Address",
+      "Subject": "Subject",
+      "placeholderSubject": "Type a subject here...",
+      "message": "Your Message",
+      "placeholderMessage": "Type your message here...",
+      "buttonText": "Send Message",
+      "successMessage": "Message sent successfully",
+      "back": "Go back",
+      "faildMessage": "Oops, Something went wrong!"
+    },
+    "privacy": {
+      "link": "privacy"
+    }
+  }
 }
