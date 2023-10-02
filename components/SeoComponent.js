@@ -1,6 +1,5 @@
 import * as React from "react";
 import Head from "next/head";
-import Script from "next/script";
 
 export const SeoComponent = ({
   title = "TechnoloGeek | Empower Your Unique Vision",
@@ -24,7 +23,7 @@ export const SeoComponent = ({
       <meta
         property="og:url"
         key="og:url"
-        content="https://www.technologeek.ca/img/how.png"
+        content="https://www.technologeek.ca"
       />
       <meta property="og:title" content={title} key="og:title" />
       <meta
@@ -32,11 +31,7 @@ export const SeoComponent = ({
         key="og:description"
         content={description}
       />
-      <meta
-        property="og:image"
-        key="og:image"
-        content={`https://www.technologeek.ca/img/how.png`}
-      />
+      <meta property="og:image" key="og:image" content="/img/ad.png" />
       <meta
         name="keywords"
         content="Professional Web Design, Responsive Website Design, Custom Web Development, Creative Web Solutions, User-Friendly Design, Mobile-Optimized Websites, SEO-Friendly Design, E-commerce Web Design, Innovative Web Design, Web Design Services in Canada"
@@ -85,11 +80,7 @@ export const SeoComponent = ({
         />
       )}
 
-      <meta
-        name="twitter:image"
-        key="twitter:image"
-        content={`https://www.technologeek.ca/img/how.png`}
-      />
+      <meta name="twitter:image" key="twitter:image" content="/img/ad.png" />
     </Head>
   );
 };
