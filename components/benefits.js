@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import Container from "./container";
+import Benefit from "./benefit";
 
 const Benefits = (props) => {
   const { data } = props;
@@ -10,7 +11,8 @@ const Benefits = (props) => {
         <div
           className={`flex items-center justify-center w-full lg:w-1/2 ${
             props.imgPos === "right" ? "lg:order-1" : ""
-          }`}>
+          }`}
+        >
           <div>
             <Image
               src={data.image}
@@ -27,7 +29,8 @@ const Benefits = (props) => {
         <div
           className={`flex flex-wrap items-center w-full lg:w-1/2 ${
             data.imgPos === "right" ? "lg:justify-end" : ""
-          }`}>
+          }`}
+        >
           <div>
             <div className="flex flex-col w-full mt-4">
               <h3 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-gray-300">
@@ -45,7 +48,8 @@ const Benefits = (props) => {
                   key={index}
                   title={item.title}
                   icon={item.icon}
-                  iconBgColor={item.iconBgColor}>
+                  iconBgColor={item.iconBgColor}
+                >
                   {item.desc}
                 </Benefit>
               ))}
@@ -56,30 +60,5 @@ const Benefits = (props) => {
     </>
   );
 };
-
-function Benefit(props) {
-  const iconBg = props.iconBgColor || "teal";
-
-  return (
-    <>
-      <div className="flex items-start mt-8 space-x-3">
-        <div
-          className={`flex items-center justify-center flex-shrink-0 mt-1 bg-gradient-to-r from-green-500 to-teal-500 rounded-md w-11 h-11`}>
-          {React.cloneElement(props.icon, {
-            className: `w-7 h-7 text-teal-50`,
-          })}
-        </div>
-        <div>
-          <h4 className="text-xl font-medium text-gray-800 dark:text-gray-200">
-            {props.title}
-          </h4>
-          <p className="mt-1 text-gray-500 dark:text-gray-400">
-            {props.children}
-          </p>
-        </div>
-      </div>
-    </>
-  );
-}
 
 export default Benefits;

@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "./container";
 
-const SectionTitle = (props) => {
+const Section = (props) => {
   return (
     <Container
       id={props.id}
@@ -30,4 +30,4 @@ const SectionTitle = (props) => {
   );
 };
 
-export default SectionTitle;
+export default Section;

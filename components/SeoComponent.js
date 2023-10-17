@@ -4,8 +4,6 @@ import Head from "next/head";
 export const SeoComponent = ({
   title = "TechnoloGeek | Empower Your Unique Vision",
   description = "We're here to turn your digital dreams into reality. Let's talk and bring your ideas to life.",
-  image = "/img/logo.svg",
-  isHomePage,
 }) => {
   return (
     <Head>
@@ -13,24 +11,13 @@ export const SeoComponent = ({
       <title key="title">{title}</title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="description" key="description" content={description} />
-      <meta
-        name="keywords"
-        content="Web Design, Software Development, Keyword3"
-      />
+      <meta name="keywords" content="Web Design, Software Development, Keyword3" />
 
       {/* OPEN GRAPH */}
       <meta property="og:type" key="og:type" content="website" />
-      <meta
-        property="og:url"
-        key="og:url"
-        content="https://www.technologeek.ca"
-      />
+      <meta property="og:url" key="og:url" content="https://www.technologeek.ca" />
       <meta property="og:title" content={title} key="og:title" />
-      <meta
-        property="og:description"
-        key="og:description"
-        content={description}
-      />
+      <meta property="og:description" key="og:description" content={description} />
       <meta property="og:image" key="og:image" content="/img/ad.png" />
       <meta
         name="keywords"
@@ -58,26 +45,12 @@ export const SeoComponent = ({
       />
 
       {/* TWITTER */}
-      <meta
-        name="twitter:card"
-        key="twitter:card"
-        content="summary_large_image"
-      />
+      <meta name="twitter:card" key="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" key="twitter:site" content="@technologeek" />
-      <meta
-        name="twitter:creator"
-        key="twitter:creator"
-        content="@technologeek"
-      />
-      {title != null && (
-        <meta name="twitter:title" key="twitter:title" content={title} />
-      )}
+      <meta name="twitter:creator" key="twitter:creator" content="@technologeek" />
+      {title != null && <meta name="twitter:title" key="twitter:title" content={title} />}
       {description != null && (
-        <meta
-          name="twitter:description"
-          key="twitter:description"
-          content={description}
-        />
+        <meta name="twitter:description" key="twitter:description" content={description} />
       )}
 
       <meta name="twitter:image" key="twitter:image" content="/img/ad.png" />

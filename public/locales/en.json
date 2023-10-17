@@ -228,6 +228,53 @@
     },
     "privacy": {
       "link": "privacy"
+    },
+    "blogService": {
+      "pretitle": "Add a nice blog to your website",
+      "title": "Welcome to Your Blogging Journey!",
+      "subtitle": "Are you looking to establish an online presence or revamp your existing one with a captivating blog? Look no further! We offer a seamless blogging solution tailored just for you. Whether you need to add a blog to your existing landing page or create an entirely new blog website, our expert team is here to transform your ideas into a stunning digital reality.",
+      "ourOfferTitle": "What we offer",
+      "ourOfferSubtitle": "Professional Blog Integration at Just $499 (One-Time Payment)",
+      "exampleBlogtitle": "Example Blog we created for one of our customers",
+      "getStartedPretitle": "Get Started",
+      "getStartedTitle": "Ready to get started?",
+      "getStartedSubtitle": "Contact us today to discuss your blogging needs, and let's embark on this exciting journey together.",
+      "ourOfferList": [
+        {
+          "title": "Customized Blog Design",
+          "subtitle": "We'll create a blog that's visually appealing and user-friendly, with a layout that's intuitive and easy to navigate."
+        },
+        {
+          "title": "Easy-to-Use CMS",
+          "subtitle": "We'll integrate a user-friendly CMS that allows you to easily manage your blog content and publish new posts."
+        },
+        {
+          "title": "Mobile-Optimized Pages",
+          "subtitle": "We'll ensure your blog is optimized for mobile devices, so you can reach your audience on the go."
+        },
+        {
+          "title": "SEO-Friendly Setup",
+          "subtitle": "We'll optimize your blog for search engines, so you can improve your rankings and drive organic traffic."
+        },
+        {
+          "title": "Dedicated Support",
+          "subtitle": "We'll provide ongoing support and maintenance to ensure your blog continues to perform optimally."
+        }
+      ],
+      "exampleBlogSectionList": [
+        {
+          "title": "Affordability",
+          "subtitle": "Our all-inclusive service is priced at a budget-friendly $499, with no hidden fees or recurring payments. You pay once and enjoy a fully functional blog without any additional costs."
+        },
+        {
+          "title": "Professional Expertise",
+          "subtitle": "Our team of experienced designers and developers is dedicated to delivering high-quality, visually appealing, and functional blogs tailored to your specifications."
+        },
+        {
+          "title": "Client Empowerment",
+          "subtitle": "We believe in empowering our clients. With our easy-to-use CMS, you can manage your blog independently, ensuring you have full control over your content."
+        }
+      ]
     }
   }
 }

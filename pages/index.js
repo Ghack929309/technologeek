@@ -1,5 +1,5 @@
 import Hero from "../components/hero";
-import SectionTitle from "../components/sectionTitle";
+import Section from "../components/section";
 import { benefitOne, benefitTwo } from "../constants/data";
 import ServiceCards from "../components/ServiceCards";
 import Benefits from "../components/benefits";
@@ -23,40 +23,40 @@ const Home = () => {
       <div className="mt-32">
         <Navbar t={t} />
         <Hero t={t} />
-        <SectionTitle
+        <Section
           id="why-us"
           pretitle={t("sections.whyUs.pretitle")}
-          title={t("sections.whyUs.title")}>
+          title={t("sections.whyUs.title")}
+        >
           {t("sections.whyUs.subtitle")}
-        </SectionTitle>
+        </Section>
         <Benefits data={benefitOne(t)} />
         <Benefits imgPos="right" data={benefitTwo(t)} />
 
-        <SectionTitle
+        <Section
           id="services"
           pretitle={t("sections.services.pretitle")}
-          title={t("sections.services.title")}>
+          title={t("sections.services.title")}
+        >
           {t("sections.services.subtitle")}
-        </SectionTitle>
+        </Section>
         <ServiceCards t={t} />
 
-        <SectionTitle
+        <Section
           id="testimonials"
           pretitle={t("sections.testimonial.pretitle")}
-          title={t("sections.testimonial.title")}>
+          title={t("sections.testimonial.title")}
+        >
           {t("sections.testimonial.subtitle")}
-        </SectionTitle>
+        </Section>
 
         <Testimonials t={t} />
 
         <Pricing t={t} />
 
-        <SectionTitle
-          id="faq"
-          pretitle={t("sections.faq.pretitle")}
-          title={t("sections.faq.title")}>
+        <Section id="faq" pretitle={t("sections.faq.pretitle")} title={t("sections.faq.title")}>
           {t("sections.faq.subtitle")}
-        </SectionTitle>
+        </Section>
         <Faq t={t} />
         <Contact t={t} />
       </div>
