@@ -1,4 +1,6 @@
 import React from "react";
+import Link from "next/link";
+
 import Navbar from "../components/navbar";
 import { SeoComponent } from "../components/SeoComponent";
 import { useTranslation } from "../contexts/translations";
@@ -7,7 +9,7 @@ import { LightBulbIcon } from "@heroicons/react/24/solid";
 import Benefit from "../components/benefit";
 import Contact from "../components/contact";
 import { GradientContainer } from "../components/gradientContainer";
-import Link from "next/link";
+import { Analytics } from "../components/Analytics";
 
 const BlogServicePage = () => {
   const { t, loading } = useTranslation();
@@ -121,6 +123,7 @@ const BlogServicePage = () => {
 
         <Contact t={t} showHeader={false} />
       </div>
+      <Analytics />
     </>
   );
 };
