@@ -56,6 +56,7 @@ const BlogServicePage = () => {
         </Section>
 
         <Section id="our-blog-service-offer" title={t("sections.blogService.exampleBlogtitle")}>
+          <p className="mb-4">{t("sections.blogService.exampleBlogSubtitle")}</p>
           <a
             href="https://7fcf3b9b.polis-landing.pages.dev/blog"
             target="_blank"
