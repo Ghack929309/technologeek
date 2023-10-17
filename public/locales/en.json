@@ -240,6 +240,9 @@
       "getStartedPretitle": "Get Started",
       "getStartedTitle": "Ready to get started?",
       "getStartedSubtitle": "Contact us today to discuss your blogging needs, and let's embark on this exciting journey together.",
+      "price": "$499",
+      "pricingTitle": "One Time Payment",
+      "pricingSubtitle": "You pay once and enjoy a fully functional blog without any additional costs.",
       "ourOfferList": [
         {
           "title": "Customized Blog Design",

@@ -236,6 +236,10 @@
       "getStartedPretitle": "Commencez",
       "getStartedTitle": "Prêt à commencer ?",
       "getStartedSubtitle": "Contactez-nous dès aujourd'hui pour discuter de vos besoins en matière de blogging et embarquons ensemble dans cette aventure passionnante.",
+      "price": "$499",
+      "pricingTitle": "Paiement Unique",
+      "pricingSubtitle": "Vous payez une seule fois et profitez d'un blog entièrement fonctionnel sans coûts supplémentaires.",
+
       "ourOfferList": [
         {
           "title": "Design de blog personnalisé",
