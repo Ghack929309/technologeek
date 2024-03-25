@@ -8,7 +8,7 @@ const Testimonials = ({ t }) => {
     {
       src: "/img/user1.jpg",
       name: "Vanessa G.C.",
-      title: "CEO Daromar INC",
+      title: "",
     },
     {
       src: "/img/user2.jpg",
@@ -30,10 +30,12 @@ const Testimonials = ({ t }) => {
             key={text + idx}
             className={classNames({
               "lg:col-span-2 xl:col-auto": idx === 0,
-            })}>
+            })}
+          >
             <div
               key={idx}
-              className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
+              className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800"
+            >
               <p className="text-2xl leading-normal ">{text.review}</p>
               <Avatar
                 image={reviews[idx].src}
